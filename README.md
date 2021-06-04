@@ -7,12 +7,11 @@
   
 ![](img/windows/install_01.png)
 
-  
 - 필자는 13.3 버전을 선택하였습니다. 
 
 - 이번에는 프로그램을 클릭하여 설치를 진행합니다. 
-![](img/windows/install_01.png)
 
+![](img/windows/install_01.png)
 
 - 모든 값은 default로 진행합니다. 
 - 비밀번호는 작성 후, 반드시 기억하시기를 바랍니다. 
@@ -57,12 +56,15 @@ C:\Program Files\PostgreSQL\13\bin
 ## MacOS
 ### 프로그램 다운로드
 - 해당 웹 페이지로 간다. (URL: https://postgresapp.com/)
+
 ![](img/macOS/install_01.png)
   
 - 다운로드 받은 후 `Postgres-2.4.3-13.dmg` (2021.5.31일 기준) 설치 파일을 클릭한 후, 아래 화면이 나오면, 설치를 진행합니다. 
+
 ![](img/macOS/install_02.png)
   
 - 설치 진행이 완료가 되면 아래 화면에서 `Initialize` 또는 `Start` 버튼을 클릭하면 설치는 끝이 납니다. 
+
 ![](img/macOS/install_03.png)
 
 
@@ -72,10 +74,12 @@ C:\Program Files\PostgreSQL\13\bin
 $ psql
 -bash: psql: command not found
 ```
+
 ![](img/macOS/install_04.png)
 
 - 이 때, 환경변수를 설정해야 합니다.
 - 먼저, Applications > postgres app > show package contents 순으로 클릭합니다.
+
 ![](img/macOS/install_05.png)
 
 - `/Applications/Postgres.app/Contents/Versions/13/bin` 순으로 접근합니다. 해당 경로를 복사합니다. 
@@ -118,6 +122,50 @@ evan=# \list
            |          |          |             |             | postgres=CTc/postgres
 (4 rows)
 ```
+
+## (옵션) PyCharm 연동
+- 이번에는 PyCharm과 PostgreSQL을 연동하는 방법에 대해 알아본다. 
+- 먼저 `Preference`-`Plugins`를 선택한다. 그 후에 `Database Navigator`를 설치한다. 
+
+![](img/pycharm/install_01.png)
+
+- 우측 상단에 DB Navigator가 생긴것을 확인할 수 있다. 
+
+![](img/pycharm/install_02.png)
+
+- `DB Navigator`-`Database Browser`를 클릭하면, 원하는 DB를 선택할 수 있다. 필자는 `PostgreSQL`을 선택할 것이다. 
+
+![](img/pycharm/install_03.png)
+
+- 그 후에 연결 user 계정을 지정 한다. 
+
+![](img/pycharm/install_04.png)
+
+- 정상적으로 설치가 완료가 되면, 왼쪽에 `Connection`이 생기는 것을 확인할 수 있을 것이다. 
+
+![](img/pycharm/install_05.png)
+
+### Table 생성 및 삭제
+- `Consoles`-`Connection`를 클릭한다.
+- 해당 화면이 실제 SQL 명령어를 수행하는 에디터라고 보면 된다. 
+
+![](img/pycharm/install_06.png)
+
+- 이제 에디터에서 간단하게 아래와 같이 입력 후 실행 한 후, 실제 출력이 잘 되는지 확인합니다. 
+```sql 
+select * from sql_features;
+```
+![](img/pycharm/install_07.png)
+
+- 여기까지 잘 된다면, 이제 본격적으로 실습할 준비가 끝난 것입니다. 
+
+
+
+
+
+
+
+
 
 
 
