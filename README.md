@@ -56,13 +56,13 @@ C:\Program Files\PostgreSQL\13\bin
 ### MacOS
 ## Postgre SQL 다운로드 
 - 해당 웹 페이지로 간다. (URL: https://postgresapp.com/)
-![](/img/macOS/install_01.png)
+![](img/macOS/install_01.png)
   
 - 다운로드 받은 후 `Postgres-2.4.3-13.dmg` (2021.5.31일 기준) 설치 파일을 클릭한 후, 아래 화면이 나오면, 설치를 진행합니다. 
-![](/img/macOS/install_02.png)
+![](img/macOS/install_02.png)
   
 - 설치 진행이 완료가 되면 아래 화면에서 `Initialize` 또는 `Start` 버튼을 클릭하면 설치는 끝이 납니다. 
-![](/img/macOS/install_03.png)
+![](img/macOS/install_03.png)
 
 
 ## 환경변수 설정
@@ -71,16 +71,16 @@ C:\Program Files\PostgreSQL\13\bin
 $ psql
 -bash: psql: command not found
 ```
-![](/img/macOS/install_04.png)
+![](img/macOS/install_04.png)
 
 - 이 때, 환경변수를 설정해야 합니다.
 - 먼저, Applications > postgres app > show package contents 순으로 클릭합니다.
-![](/img/macOS/install_05.png)
+![](img/macOS/install_05.png)
 
 - `/Applications/Postgres.app/Contents/Versions/13/bin` 순으로 접근합니다. 해당 경로를 복사합니다. 
   + Tip: 아래 메뉴에서 `옵션(Options)키`를 클릭 하면 `Copy "bin" as Pathname`이 메뉴가 나옵니다. 해당 부분을 클릭하면 위 경로를 얻을 수 있습니다. 
   
-![](/img/macOS/install_06.png)
+![](img/macOS/install_06.png)
 
   
 - 이제 터미널을 엽니다. 
@@ -101,7 +101,7 @@ Type "help" for help.
 evan=# 
 ```
 
-![](/img/macOS/install_07.png)
+![](img/macOS/install_07.png)
 
 - 간단한 명령어를 작성합니다. 
 ```bash 

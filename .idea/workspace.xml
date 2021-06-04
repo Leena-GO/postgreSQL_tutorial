@@ -2,19 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15983241-c196-4846-9fb1-c082e506299a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_01.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_02.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_04.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_05.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_06.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_07.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_08.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_09.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/install_11.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/install_01.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_01.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_01.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_02.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_02.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_03.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_03.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_04.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_04.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_05.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_05.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_06.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_06.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/macOS/macOS/install_07.png" beforeDir="false" afterPath="$PROJECT_DIR$/img/macOS/install_07.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +30,12 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/img/macOS" />
+      <recent name="$PROJECT_DIR$/img" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -44,5 +46,16 @@
       <updated>1622818029087</updated>
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
