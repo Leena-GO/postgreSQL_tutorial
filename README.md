@@ -1,5 +1,6 @@
-## postgresql 강의
-### Windows 
+# postgresql 설치
+## Windows 
+### 프로그램 다운로드
 - PostgreSQL Downloads
     + URL: https://www.enterprisedb.com/downloads/postgres-postgresql-downloads
     + 각 컴퓨터에 맞는 버전을 선택합니다.
@@ -39,7 +40,7 @@
 
 ![](img/windows/install_08.png)
 
-## 환경변수 추가
+### 환경변수 설정
 - CMD에서 활용하려면 환경변수를 설정하도록 합니다. 
 - 먼저 경로를 복사합니다.
 
@@ -53,8 +54,8 @@ C:\Program Files\PostgreSQL\13\bin
 
 ![](img/windows/install_10.png)
 
-### MacOS
-## Postgre SQL 다운로드 
+## MacOS
+### 프로그램 다운로드
 - 해당 웹 페이지로 간다. (URL: https://postgresapp.com/)
 ![](img/macOS/install_01.png)
   
@@ -65,7 +66,7 @@ C:\Program Files\PostgreSQL\13\bin
 ![](img/macOS/install_03.png)
 
 
-## 환경변수 설정
+### 환경변수 설정
 - 그런데, 환경변수 설정을 하지 않으면 터미널에서 실행이 되지 않습니다. 
 ```bash 
 $ psql
@@ -117,3 +118,6 @@ evan=# \list
            |          |          |             |             | postgres=CTc/postgres
 (4 rows)
 ```
+
+
+
