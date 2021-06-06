@@ -24,25 +24,27 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="false" />
-    <loaded-nodes>
-      <connection connection-id="6fd5af3d-00a7-4f31-98f8-166478f5bc6d">
-        <schema name="information_schema" object-types="table, view, sequence, function" />
-        <schema name="pg_catalog" object-types="table, view, sequence, function" />
-        <schema name="pg_toast" object-types="table, view, sequence, function" />
-        <schema name="public" object-types="table, view, sequence, function" />
-      </connection>
-    </loaded-nodes>
+    <loaded-nodes />
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="6fd5af3d-00a7-4f31-98f8-166478f5bc6d">
-      <console name="Connection" type="STANDARD" schema="information_schema" session="Main"><![CDATA[select * from sql_features;]]></console>
+    <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE temp.users (
+  id serial PRIMARY KEY,
+  first_name TEXT NOT NULL,
+  last_name TEXT NOT NULL,
+  email TEXT NOT NULL,
+  hashed_password CHAR(72) NOT NULL
+);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
     <open-files />
   </component>
   <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="6fd5af3d-00a7-4f31-98f8-166478f5bc6d" />
+    <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18" />
+  </component>
+  <component name="DBNavigator.Project.DatasetFilterManager">
+    <filter-actions connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" dataset="temp.orders" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />
@@ -70,7 +72,7 @@
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
-      <connection id="6fd5af3d-00a7-4f31-98f8-166478f5bc6d" active="true">
+      <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18" active="true">
         <database>
           <name value="Connection" />
           <description value="" />
@@ -83,7 +85,7 @@
           <url-type value="DATABASE" />
           <host value="localhost" />
           <port value="5432" />
-          <database value="chloe" />
+          <database value="postgres" />
           <type value="NONE" />
           <user value="" />
           <deprecated-pwd value="" />
