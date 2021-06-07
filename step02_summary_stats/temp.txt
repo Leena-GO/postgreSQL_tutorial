@@ -1,0 +1,30 @@
+
+# 스키마 조회
+SELECT schema_name FROM information_schema.schemata
+
+# 테이블 조회
+SELECT column_name
+       , data_type
+       , character_maximum_length
+       , column_default
+       , is_nullable
+FROM INFORMATION_SCHEMA.COLUMNS
+WHERE table_name = 'summer_medals';
+
+# 테이블 생성
+CREATE TABLE summer_medals (
+	year INTEGER,
+  city VARCHAR(42),
+  sport VARCHAR(34),
+  discipline VARCHAR(34),
+  athlete VARCHAR(94),
+  country CHAR(6) NOT NULL,
+  gender VARCHAR(10),
+  event VARCHAR(98),
+  medal VARCHAR(12)
+);
+
+# CSV 데이터 넣기
+# \! pwd 현재 경로
+# \cd <path>
+\COPY summer_medals FROM "step01_basic/data/summer.csv" DELIMITER ',' CSV HEADER;

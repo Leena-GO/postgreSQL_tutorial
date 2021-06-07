@@ -26,25 +26,23 @@
     <show-object-properties value="false" />
     <loaded-nodes>
       <connection connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-        <schema name="public" object-types="table" />
+        <schema name="pg_catalog" object-types="function" />
+        <schema name="public" object-types="table, view, sequence, function, constraint, index, column, dataset trigger" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE project (
-	-- Primary Key
-	id SERIAL PRIMARY KEY,
-    -- franchise 기회
-	is_franchise BOOLEAN DEFAULT FALSE,
-	-- Franchise 이름
-    franchise_name TEXT DEFAULT NULL,
-    -- Project 시도
-    project_state TEXT,
-    -- Project 시군
-    project_county TEXT,
-    -- Project로 발생한 Job 수
-    jobs_supported NUMERIC
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE summer_medals (
+  year INTEGER,
+  city VARCHAR(42),
+  sport VARCHAR(34),
+  discipline VARCHAR(34),
+  athlete VARCHAR(94),
+  country VARCHAR(6),
+  gender VARCHAR(10),
+  event VARCHAR(98),
+  medal VARCHAR(12)
 );]]></console>
     </connection>
   </component>
@@ -56,6 +54,7 @@
   </component>
   <component name="DBNavigator.Project.DatasetFilterManager">
     <filter-actions connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" dataset="temp.orders" active-filter-id="" />
+    <filter-actions connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" dataset="public.summer_medals" active-filter-id="" />
   </component>
   <component name="DBNavigator.Project.EditorStateManager">
     <last-used-providers />

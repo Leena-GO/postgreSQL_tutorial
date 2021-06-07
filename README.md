@@ -53,6 +53,29 @@ C:\Program Files\PostgreSQL\13\bin
 
 ![](img/windows/install_10.png)
 
+- 환경변수 내에서 새로만들기를 클릭한 후, 위 주소를 입력 후 저장합니다. 
+
+![](img/windows/install_11.png)
+
+### PostgreSQL 접속
+- SQL Shell을 이용하여 접속을 하도록 합니다. 
+- 모두 디폴트로 설치를 하였기 때문에, Enter를 계속 쳐줍니다. 
+- 마지막 패스워드는 설치할 때 입력한 패스워드를 입력하도록 합니다. 
+
+![](img/windows/install_12.png)
+
+- 이번에는 pgAdmin4를 활용하도록 합니다. 해당 프로그램을 검색합니다. 
+
+![](img/windows/install_13.png)
+
+- 실행하면, 패스워드를 입력합니다.   
+
+![](img/windows/install_14.png)
+
+- 정상적으로 모두 열리면, 다음과 같은 화면이 뜨면 정상입니다. 
+
+![](img/windows/install_15.png)
+
 ## MacOS
 ### 프로그램 다운로드
 - 해당 웹 페이지로 간다. (URL: https://postgresapp.com/)

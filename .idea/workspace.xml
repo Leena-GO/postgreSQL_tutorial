@@ -5,10 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="15983241-c196-4846-9fb1-c082e506299a" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/img/windows/install_12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/windows/install_13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/windows/install_14.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/windows/install_15.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/step02_summary_stats/temp.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step01_basic/.ipynb_checkpoints/session_01-checkpoint.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/step01_basic/.ipynb_checkpoints/session_01-checkpoint.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/step01_basic/session_01.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/step01_basic/session_01.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +21,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="ProjectId" id="1tUK3RQagQqUivJOG0I56shbalk" />
   <component name="ProjectViewState">
@@ -27,9 +39,13 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/step01_basic" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/step01_basic" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/img/macOS" />
       <recent name="$PROJECT_DIR$/img" />
