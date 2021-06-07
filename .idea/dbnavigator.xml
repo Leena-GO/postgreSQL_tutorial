@@ -24,16 +24,27 @@
     <autoscroll-to-editor value="false" />
     <autoscroll-from-editor value="true" />
     <show-object-properties value="false" />
-    <loaded-nodes />
+    <loaded-nodes>
+      <connection connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
+        <schema name="public" object-types="table" />
+      </connection>
+    </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE temp.users (
-  id serial PRIMARY KEY,
-  first_name TEXT NOT NULL,
-  last_name TEXT NOT NULL,
-  email TEXT NOT NULL,
-  hashed_password CHAR(72) NOT NULL
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE project (
+	-- Primary Key
+	id SERIAL PRIMARY KEY,
+    -- franchise 기회
+	is_franchise BOOLEAN DEFAULT FALSE,
+	-- Franchise 이름
+    franchise_name TEXT DEFAULT NULL,
+    -- Project 시도
+    project_state TEXT,
+    -- Project 시군
+    project_county TEXT,
+    -- Project로 발생한 Job 수
+    jobs_supported NUMERIC
 );]]></console>
     </connection>
   </component>
