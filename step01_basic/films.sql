@@ -1,34 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="DBNavigator.Project.DataEditorManager">
-    <record-view-column-sorting-type value="BY_INDEX" />
-    <value-preview-text-wrapping value="false" />
-    <value-preview-pinned value="false" />
-  </component>
-  <component name="DBNavigator.Project.DataExportManager">
-    <export-instructions>
-      <create-header value="true" />
-      <friendly-headers value="false" />
-      <quote-values-containing-separator value="true" />
-      <quote-all-values value="false" />
-      <value-separator value="" />
-      <file-name value="" />
-      <file-location value="" />
-      <scope value="GLOBAL" />
-      <destination value="FILE" />
-      <format value="EXCEL" />
-      <charset value="x-windows-949" />
-    </export-instructions>
-  </component>
-  <component name="DBNavigator.Project.DatabaseBrowserManager">
-    <autoscroll-to-editor value="false" />
-    <autoscroll-from-editor value="true" />
-    <show-object-properties value="false" />
-    <loaded-nodes />
-  </component>
-  <component name="DBNavigator.Project.DatabaseConsoleManager">
-    <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[--
+--
 -- PostgreSQL database dump
 --
 
@@ -240,7 +210,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 105	Nothing But a Man	1964	USA	95	English	Not Rated	12438	160000
 106	The Fall of the Roman Empire	1964	USA	172	English	Approved	\N	19000000
 107	The Train	1964	France	133	English	Unrated	\N	6700000
-108	Une Femme Mari梨뷷	1964	France	94	French	\N	\N	120000
+108	Une Femme Mari챕e	1964	France	94	French	\N	\N	120000
 109	Doctor Zhivago	1965	USA	200	English	PG-13	111722000	11000000
 110	Major Dundee	1965	USA	152	English	Approved	14873	3800000
 111	Pierrot le Fou	1965	France	110	French	Not Rated	\N	300000
@@ -562,7 +532,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 427	The Return of the Living Dead	1985	USA	108	English	R	\N	4000000
 428	Witness	1985	USA	112	English	R	65500000	12000000
 429	Young Sherlock Holmes	1985	USA	109	English	PG-13	4250320	18000000
-430	9姨� Weeks	1986	USA	112	English	R	6734844	17000000
+430	9쩍 Weeks	1986	USA	112	English	R	6734844	17000000
 431	Aliens	1986	USA	154	English	R	85200000	18500000
 432	April Fool's Day	1986	USA	89	English	R	12947763	5000000
 433	Big Trouble in Little China	1986	USA	99	English	PG-13	11100000	25000000
@@ -741,7 +711,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 606	The Addams Family	1991	USA	99	English	PG-13	113502246	38000000
 607	The Doors	1991	USA	140	English	R	35183792	38000000
 608	The Fisher King	1991	USA	137	English	R	41895491	24000000
-609	The Naked Gun 2姨�: The Smell of Fear	1991	USA	85	English	PG-13	86930411	23000000
+609	The Naked Gun 2쩍: The Smell of Fear	1991	USA	85	English	PG-13	86930411	23000000
 610	The Prince of Tides	1991	USA	132	English	R	74787599	30000000
 611	The Silence of the Lambs	1991	USA	138	English	R	130727000	19000000
 612	White Fang	1991	USA	107	English	PG	34793160	14000000
@@ -858,7 +828,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 723	Pulp Fiction	1994	USA	178	English	R	107930000	8000000
 724	Rapa Nui	1994	USA	107	English	R	305070	20000000
 725	Renaissance Man	1994	USA	128	English	PG-13	24332324	40000000
-726	Ri吏뻞ie Ri吏뻞	1994	USA	95	English	PG	38087756	40000000
+726	Ri짖hie Ri짖h	1994	USA	95	English	PG	38087756	40000000
 727	Serial Mom	1994	USA	95	English	R	7881335	13000000
 728	Speed	1994	USA	116	English	R	121248145	25000000
 729	Star Trek: Generations	1994	USA	118	English	PG	75668868	35000000
@@ -1079,7 +1049,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 944	Cube	1997	Canada	90	English	R	489220	365000
 945	Dante's Peak	1997	USA	108	English	PG-13	67155742	116000000
 946	Deconstructing Harry	1997	USA	96	English	R	10569071	20000000
-947	D梨뷽�슞 Vu	1997	USA	117	English	PG-13	821997	\N
+947	D챕j횪 Vu	1997	USA	117	English	PG-13	821997	\N
 948	Donnie Brasco	1997	USA	147	English	R	41954997	35000000
 949	Dream with the Fishes	1997	USA	97	English	R	464655	1000000
 950	Eve's Bayou	1997	USA	109	English	R	14821531	6000000
@@ -1559,7 +1529,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 1424	Pandaemonium	2000	UK	124	English	PG-13	\N	15000000
 1425	Pay It Forward	2000	USA	123	English	PG-13	33508922	40000000
 1426	Pitch Black	2000	USA	112	English	R	39235088	23000000
-1427	Pok梨븁on 3: The Movie	2000	Japan	93	Japanese	G	\N	16000000
+1427	Pok챕mon 3: The Movie	2000	Japan	93	Japanese	G	\N	16000000
 1428	Pollock	2000	USA	122	English	R	8596914	6000000
 1429	Proof of Life	2000	USA	135	English	R	32598931	65000000
 1430	Psycho Beach Party	2000	Australia	85	English	Unrated	265107	1500000
@@ -1650,7 +1620,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 1515	Alias Betty	2001	France	103	French	\N	206400	50000000
 1516	All the Queen's Men	2001	Germany	105	English	PG-13	22723	25000000
 1517	Along Came a Spider	2001	USA	104	English	R	74058698	60000000
-1518	Am梨뷿ie	2001	France	122	French	R	33201661	77000000
+1518	Am챕lie	2001	France	122	French	R	33201661	77000000
 1519	America's Sweethearts	2001	USA	102	English	PG-13	93607673	48000000
 1520	American Desi	2001	USA	100	English	Unrated	902835	250000
 1521	American Outlaws	2001	USA	94	English	PG-13	13264986	35000000
@@ -1827,7 +1797,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 1692	Wasabi	2001	France	94	French	R	81525	15300000
 1693	What's the Worst That Could Happen?	2001	USA	94	English	PG-13	32095318	45000000
 1694	Winged Migration	2001	France	81	English	G	10762178	160000000
-1695	Y Tu Mam李� Tambi梨븂	2001	Mexico	106	Spanish	R	13622333	2000000
+1695	Y Tu Mam찼 Tambi챕n	2001	Mexico	106	Spanish	R	13622333	2000000
 1696	Zoolander	2001	Germany	90	English	PG-13	45162741	28000000
 1697	25th Hour	2002	USA	108	English	R	13060843	15000000
 1698	28 Days Later...	2002	UK	113	English	R	45063889	8000000
@@ -2425,7 +2395,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 2290	A History of Violence	2005	USA	96	English	R	31493782	32000000
 2291	A Lot Like Love	2005	USA	107	English	PG-13	21835784	30000000
 2292	A Sound of Thunder	2005	UK	102	English	PG-13	1891821	52000000
-2293	�쉱on Flux	2005	USA	93	English	PG-13	25857987	62000000
+2293	횈on Flux	2005	USA	93	English	PG-13	25857987	62000000
 2294	Alone in the Dark	2005	Canada	94	English	R	5132655	20000000
 2295	An American Haunting	2005	UK	91	English	PG-13	16298046	14000000
 2296	An Unfinished Life	2005	USA	108	English	PG-13	8535575	30000000
@@ -2787,7 +2757,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 2652	Poseidon	2006	USA	98	English	PG-13	60655503	160000000
 2653	Poultrygeist: Night of the Chicken Dead	2006	USA	103	English	Unrated	23000	500000
 2654	Pulse	2006	USA	90	English	PG-13	20259297	20000000
-2655	Quincea梨캿ra	2006	USA	90	Spanish	R	1689999	400000
+2655	Quincea챰era	2006	USA	90	Spanish	R	1689999	400000
 2656	Rang De Basanti	2006	India	157	Hindi	Not Rated	2197331	\N
 2657	Renaissance	2006	France	105	English	R	63260	14000000
 2658	Rescue Dawn	2006	USA	120	English	PG-13	5484375	10000000
@@ -2975,7 +2945,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 2840	Married Life	2007	USA	91	English	PG-13	1506998	12000000
 2841	Martian Child	2007	USA	106	English	PG	7486906	27000000
 2842	Michael Clayton	2007	USA	119	English	R	49024969	25000000
-2843	Moli梨봱e	2007	France	120	French	PG-13	634277	16000000
+2843	Moli챔re	2007	France	120	French	PG-13	634277	16000000
 2844	Mongol: The Rise of Genghis Khan	2007	Russia	126	Mongolian	R	5701643	20000000
 2845	Mr. Bean's Holiday	2007	UK	90	English	PG	32553210	25000000
 2846	Music and Lyrics	2007	USA	95	English	PG-13	50562555	\N
@@ -3293,7 +3263,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 3158	Vantage Point	2008	USA	90	English	PG-13	72266306	40000000
 3159	Vicky Cristina Barcelona	2008	Spain	96	English	PG-13	23213577	15500000
 3160	W.	2008	USA	129	English	PG-13	25517500	25100000
-3161	WALL夷똄	2008	USA	98	English	G	223806889	180000000
+3161	WALL쨌E	2008	USA	98	English	G	223806889	180000000
 3162	Waltz with Bashir	2008	Israel	90	Hebrew	R	2283276	1500000
 3163	Wanted	2008	USA	110	English	R	134568845	75000000
 3164	War, Inc.	2008	USA	107	English	R	578527	10000000
@@ -3350,13 +3320,13 @@ COPY films (id, title, release_year, country, duration, language, certification,
 3215	Brooklyn's Finest	2009	USA	132	English	R	27154426	17000000
 3216	Brothers	2009	USA	105	English	R	28501651	26000000
 3217	Brothers	2009	USA	105	English	R	28501651	26000000
-3218	Br泥큡o	2009	USA	81	English	R	59992760	42000000
+3218	Br체no	2009	USA	81	English	R	59992760	42000000
 3219	Capitalism: A Love Story	2009	USA	105	English	R	14359793	\N
 3220	Cargo	2009	Switzerland	112	German	\N	\N	4500000
 3221	Carriers	2009	USA	84	English	PG-13	90820	\N
 3222	Case 39	2009	USA	109	English	R	13248477	27000000
 3223	Chain Letter	2009	USA	88	English	R	143000	5000000
-3224	Ch梨븈i	2009	UK	100	English	R	2708188	23000000
+3224	Ch챕ri	2009	UK	100	English	R	2708188	23000000
 3225	Chicago Overcoat	2009	USA	94	English	R	\N	3000000
 3226	Chloe	2009	USA	96	English	R	3074838	11000000
 3227	Cirque du Freak: The Vampire's Assistant	2009	USA	109	English	PG-13	13838130	40000000
@@ -4103,7 +4073,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 3968	Katy Perry: Part of Me	2012	USA	93	English	PG	25240988	12000000
 3969	Khiladi 786	2012	India	141	Hindi	Not Rated	352684	\N
 3970	Killing Them Softly	2012	USA	97	English	R	14938570	15000000
-3971	Les Mis梨븈ables	2012	USA	158	English	PG-13	148775460	61000000
+3971	Les Mis챕rables	2012	USA	158	English	PG-13	148775460	61000000
 3972	Life of Pi	2012	USA	127	English	PG	124976634	120000000
 3973	Lincoln	2012	USA	150	English	PG-13	182204440	65000000
 3974	Lockout	2012	France	95	English	PG-13	14291570	20000000
@@ -4282,7 +4252,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 4147	Blue Jasmine	2013	USA	98	English	PG-13	33404871	18000000
 4148	Blue Ruin	2013	USA	90	English	R	258113	1066167
 4149	Broken City	2013	USA	109	English	R	19692608	35000000
-4150	Buen D梨쟞, Ram泥쁭	2013	Mexico	120	German	PG-13	100412	4000000
+4150	Buen D챠a, Ram처n	2013	Mexico	120	German	PG-13	100412	4000000
 4151	Captain Phillips	2013	USA	134	English	PG-13	107100855	55000000
 4152	Carrie	2013	USA	100	English	R	35266619	30000000
 4153	Carrie	2013	USA	100	English	R	35266619	30000000
@@ -4589,7 +4559,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 4454	Jungle Shuffle	2014	South Korea	85	English	\N	\N	10000000
 4455	Kill the Messenger	2014	USA	112	English	R	2445646	5000000
 4456	Kung Fu Killer	2014	China	100	Cantonese	\N	129115	25000000
-4457	La Famille B梨뷿ier	2014	France	106	French	\N	\N	11000000
+4457	La Famille B챕lier	2014	France	106	French	\N	\N	11000000
 4458	Left Behind	2014	USA	110	English	PG-13	13998282	16000000
 4459	Left Behind	2014	USA	110	English	PG-13	13998282	16000000
 4460	Let's Be Cops	2014	USA	104	English	R	82389560	17000000
@@ -4743,7 +4713,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 4608	Animal Kingdom: Let's go Ape	2015	France	101	French	\N	\N	\N
 4609	Anomalisa	2015	USA	90	English	R	3442820	8000000
 4610	Ant-Man	2015	USA	117	English	PG-13	180191634	130000000
-4611	Antarctic Edge: 70吏� South	2015	USA	72	English	\N	4914	150000
+4611	Antarctic Edge: 70째 South	2015	USA	72	English	\N	4914	150000
 4612	Area 51	2015	USA	91	English	R	\N	5000000
 4613	Avengers: Age of Ultron	2015	USA	141	English	PG-13	458991599	250000000
 4614	AWOL-72	2015	USA	82	English	R	\N	3000000
@@ -5067,7 +5037,7 @@ COPY films (id, title, release_year, country, duration, language, certification,
 4932	Carlos	\N	France	334	English	Not Rated	145118	\N
 4933	Creature	\N	USA	173	English	\N	\N	\N
 4934	Deadline Gallipoli	\N	Australia	197	English	\N	\N	15000000
-4935	Del 1 - M梨꼗 som hatar kvinnor	\N	Sweden	88	Swedish	\N	\N	\N
+4935	Del 1 - M채n som hatar kvinnor	\N	Sweden	88	Swedish	\N	\N	\N
 4936	Emma	\N	UK	240	English	\N	\N	\N
 4937	Fired Up	\N	USA	30	English	\N	\N	\N
 4938	Get Real	\N	USA	60	English	\N	\N	\N
@@ -5196,7 +5166,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 85	Agnia Ditkovskite	1988-05-11	\N
 86	Agnieszka Holland	1948-11-28	\N
 87	Agnieszka Wojtowicz-Vosloo	\N	\N
-88	Agust梨쟮 D梨쟞z Yanes	\N	\N
+88	Agust챠n D챠az Yanes	\N	\N
 89	Ah-sung Ko	1992-08-10	\N
 90	Ahmad Massad	\N	\N
 91	Ahmed Best	1973-08-19	\N
@@ -5214,11 +5184,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 103	Aimee Teegarden	1989-10-10	\N
 104	Aisha Hinds	1975-11-13	\N
 105	Aisha Tyler	1970-09-18	\N
-106	Aitana S李펝chez-Gij泥쁭	1968-11-05	\N
+106	Aitana S찼nchez-Gij처n	1968-11-05	\N
 107	AJ Michalka	1991-04-10	\N
 108	Ajay Naidu	1972-02-12	\N
 109	Aki Aleong	1934-12-19	\N
-110	Aki Kaurism梨꼔i	1957-04-04	\N
+110	Aki Kaurism채ki	1957-04-04	\N
 111	Akie Kotabe	1980-07-18	\N
 112	Akima	\N	2014-07-27
 113	Akira Kurosawa	1910-03-23	1998-09-06
@@ -5282,9 +5252,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 171	Aldo Sambrell	1931-02-23	2010-07-10
 172	Alec Asten	\N	\N
 173	Alejandro Agresti	1961-06-02	\N
-174	Alejandro Amen李펉ar	1972-03-31	\N
+174	Alejandro Amen찼bar	1972-03-31	\N
 175	Alejandro Furth	\N	\N
-176	Alejandro G. I梨곗갸rritu	1963-08-15	\N
+176	Alejandro G. I챰찼rritu	1963-08-15	\N
 177	Alejandro Monteverde	1977-07-13	\N
 178	Aleksa Palladino	1980-09-21	\N
 179	Aleksandr Bashirov	1955-09-24	\N
@@ -5296,12 +5266,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 185	Alessandro Carloni	\N	\N
 186	Alessandro Nivola	1972-06-28	\N
 187	Alessandro Preziosi	1973-04-19	\N
-188	�쉧lex Angulo	1953-04-12	2014-07-20
+188	횁lex Angulo	1953-04-12	2014-07-20
 189	Alex Borstein	1973-02-15	\N
 190	Alex Cox	1954-12-15	\N
 191	Alex Craig Mann	\N	\N
-192	�쉧lex de la Iglesia	1965-12-04	\N
-193	Alex D梨븉ert	1968-07-18	\N
+192	횁lex de la Iglesia	1965-12-04	\N
+193	Alex D챕sert	1968-07-18	\N
 194	Alex Emanuel	\N	\N
 195	Alex Garland	1970-05-26	\N
 196	Alex Gibney	1953-10-23	\N
@@ -5331,7 +5301,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 220	Alexa PenaVega	1988-08-27	\N
 221	Alexander Gould	1994-05-04	\N
 222	Alexander Payne	1961-02-10	\N
-223	Alexander Skarsg梨꿹d	1976-08-25	\N
+223	Alexander Skarsg책rd	1976-08-25	\N
 224	Alexander Vlahos	\N	\N
 225	Alexander Witt	\N	\N
 226	Alexander Wraith	1979-06-29	\N
@@ -5351,7 +5321,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 240	Alexis Dziena	1984-07-08	\N
 241	Alexis Kendra	\N	\N
 242	Alfie Allen	1986-09-12	\N
-243	Alfonso Cuar泥쁭	1961-11-28	\N
+243	Alfonso Cuar처n	1961-11-28	\N
 244	Alfre Woodard	1952-11-08	\N
 245	Alfred Enoch	1988-12-02	\N
 246	Alfred Hitchcock	1899-08-13	1980-04-29
@@ -5374,7 +5344,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 263	Alicia Witt	1975-08-21	\N
 264	Alicia Ziegler	1981-05-02	\N
 265	Alicja Bachleda	1983-05-12	\N
-266	Aliou Tour梨�	\N	\N
+266	Aliou Tour챕	\N	\N
 267	Alisha Boe	1997-03-06	\N
 268	Alison Brie	1982-12-29	\N
 269	Alison Chand	\N	\N
@@ -5459,7 +5429,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 348	Amy Stewart	\N	\N
 349	Amy Warren	\N	\N
 350	Amy Yasbeck	1962-09-12	\N
-351	Ana Claudia Talanc泥쁭	1980-05-01	\N
+351	Ana Claudia Talanc처n	1980-05-01	\N
 352	Ana de la Reguera	1977-04-08	\N
 353	Ana Gasteyer	1967-05-04	\N
 354	Ana Imnadze	\N	\N
@@ -5471,12 +5441,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 360	Anatoliy Solonitsyn	1934-08-30	1982-06-11
 361	Anders Holm	\N	\N
 362	Andre Braugher	1962-07-01	\N
-363	Andr梨� Dussollier	1946-02-17	\N
-364	Andr梨� �슑vredal	\N	\N
-365	Andr梨� Ramiro	1981-01-14	\N
-366	Andr梨� T梨뷵hin梨�	\N	\N
-367	Andr梨� the Giant	1946-05-19	1993-01-27
-368	Andr梨� Wilms	\N	\N
+363	Andr챕 Dussollier	1946-02-17	\N
+364	Andr챕 횠vredal	\N	\N
+365	Andr챕 Ramiro	1981-01-14	\N
+366	Andr챕 T챕chin챕	\N	\N
+367	Andr챕 the Giant	1946-05-19	1993-01-27
+368	Andr챕 Wilms	\N	\N
 369	Andrea Arnold	1961-04-05	\N
 370	Andrea Corr	1960-12-12	\N
 371	Andrea Di Stefano	1972-12-15	\N
@@ -5487,9 +5457,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 376	Andrea Vergara	1984-11-10	\N
 377	Andrei Tarkovsky	1932-04-04	1986-12-29
 378	Andrej Nahtigal	1942-09-04	\N
-379	Andr梨븉 Couturier	1977-02-05	\N
-380	Andr梨븉 Montiel	1975-01-30	\N
-381	Andr梨븉 Muschietti	\N	\N
+379	Andr챕s Couturier	1977-02-05	\N
+380	Andr챕s Montiel	1975-01-30	\N
+381	Andr챕s Muschietti	\N	\N
 382	Andrew Adamson	1966-12-01	\N
 383	Andrew Airlie	1961-09-18	\N
 384	Andrew Berends	\N	\N
@@ -5545,12 +5515,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 434	Angela Cartwright	1952-09-09	\N
 435	Angela Featherstone	1965-04-03	\N
 436	Angela Jones	\N	\N
-437	�쉧ngela Molina	1955-10-05	\N
+437	횁ngela Molina	1955-10-05	\N
 438	Angela Nordeng	\N	\N
 439	Angela Robinson	1971-02-14	\N
 440	Angela Sarafyan	1983-06-30	\N
 441	Angelica Lee	1976-01-23	\N
-442	Ang梨뷿ica Sancio	\N	\N
+442	Ang챕lica Sancio	\N	\N
 443	Angeliki Papoulia	\N	\N
 444	Angelina Armani	1987-11-18	\N
 445	Angelina Jolie Pitt	1975-06-04	\N
@@ -5641,7 +5611,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 530	Antoni Corone	\N	\N
 531	Antonia Bird	1951-05-27	2013-10-24
 532	Antonia Thomas	1986-11-03	\N
-533	Antonio Arru梨�	\N	\N
+533	Antonio Arru챕	\N	\N
 534	Antonio Banderas	1960-08-10	\N
 535	Antonio de la Torre	1968-01-18	\N
 536	Antonio Sabato Jr.	1972-02-29	\N
@@ -5656,7 +5626,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 545	Ara Celi	1967-06-19	\N
 546	Aramis Knight	1999-10-03	\N
 547	Arben Bajraktaraj	\N	\N
-548	Arcelia Ram梨쟲ez	1967-12-07	\N
+548	Arcelia Ram챠rez	1967-12-07	\N
 549	Archie Kao	1969-12-14	\N
 550	Archie Panjabi	1972-05-31	\N
 551	Aretha Franklin	1942-03-25	\N
@@ -5749,18 +5719,18 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 638	Bai Ling	\N	\N
 639	Bailee Madison	1999-10-15	\N
 640	Balinese Tari Legong Dancers	\N	\N
-641	B李펚int P梨븂tek	\N	\N
-642	Baltasar Korm李펗ur	1966-02-27	\N
+641	B찼lint P챕ntek	\N	\N
+642	Baltasar Korm찼kur	1966-02-27	\N
 643	Balthazar Getty	1975-01-22	\N
 644	Bam Margera	1979-09-28	\N
 645	Barack Obama	1961-08-04	\N
 646	Barbara Bach	1947-08-27	\N
 647	Barbara Billingsley	1915-12-22	2010-10-16
 648	Barbara Carrera	1945-12-31	\N
-649	B李펢bara Goenaga	1983-07-20	\N
+649	B찼rbara Goenaga	1983-07-20	\N
 650	Barbara Hershey	1948-02-05	\N
 651	Barbara Kowalcyk	\N	\N
-652	B李펢bara Mori	1978-02-02	\N
+652	B찼rbara Mori	1978-02-02	\N
 653	Barbet Schroeder	1941-08-26	\N
 654	Barbie Castro	\N	\N
 655	Barbra Streisand	1942-04-24	\N
@@ -5789,8 +5759,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 678	Basher Savage	\N	\N
 679	Basil Rathbone	1892-06-13	1967-07-21
 680	Baz Luhrmann	1962-09-17	\N
-681	B梨뷲trice Bonifassi	\N	\N
-682	B梨뷲trice Dalle	1964-12-19	\N
+681	B챕atrice Bonifassi	\N	\N
+682	B챕atrice Dalle	1964-12-19	\N
 683	Beatrice Ntuba	\N	\N
 684	Beatrice Straight	1914-08-02	2001-04-07
 685	Beau Bridges	1941-12-09	\N
@@ -5801,7 +5771,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 690	Becky Smith	\N	\N
 691	Beeban Kidron	1961-05-02	\N
 692	Behrouz Vossoughi	\N	\N
-693	Bel梨븂 Rueda	1965-03-16	\N
+693	Bel챕n Rueda	1965-03-16	\N
 694	Bella Heathcote	1987-05-27	\N
 695	Bella Thorne	1997-10-08	\N
 696	Ben Affleck	1972-08-15	\N
@@ -5842,13 +5812,13 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 731	Benjamin Walker	1982-06-21	\N
 732	Bennett Miller	1966-12-30	\N
 733	Benni Diez	\N	\N
-734	Benno F泥큥mann	1972-01-17	\N
+734	Benno F체rmann	1972-01-17	\N
 735	Benny Boom	\N	\N
-736	Beno梨쨟 Magimel	1974-05-11	\N
-737	Beno梨쨟 Poelvoorde	1964-09-22	\N
+736	Beno챤t Magimel	1974-05-11	\N
+737	Beno챤t Poelvoorde	1964-09-22	\N
 738	Benson Lee	\N	\N
-739	B梨븈梨븂ice Bejo	1976-07-07	\N
-740	Berg泥큯ar Korel	1982-09-02	\N
+739	B챕r챕nice Bejo	1976-07-07	\N
+740	Berg체zar Korel	1982-09-02	\N
 741	Bern Cohen	\N	\N
 742	Bernadette Peters	1948-02-28	\N
 743	Bernard Cribbins	1928-12-29	\N
@@ -5867,7 +5837,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 756	Beth Riesgraf	1978-08-24	\N
 757	Bethany Blakey	\N	\N
 758	Bethany Joy Lenz	1981-04-02	\N
-759	Beto G泥쁬ez	1969-05-12	\N
+759	Beto G처mez	1969-05-12	\N
 760	Betsy Baker	\N	\N
 761	Betsy Palmer	1926-11-01	2015-05-29
 762	Betsy Russell	1963-09-06	\N
@@ -5934,11 +5904,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 823	Bingbing Fan	1981-09-16	\N
 824	Bingbing Li	1973-02-27	\N
 825	Bipasha Basu	1979-01-07	\N
-826	Birgitte Hjort S泥쯴ensen	1982-01-16	\N
-827	Birol �슖nel	1961-08-18	\N
-828	Bj泥쟲k	\N	\N
-829	Bj泥쟲n Hlynur Haraldsson	\N	\N
-830	Bj泥쯴n Sundquist	1948-06-16	\N
+826	Birgitte Hjort S첩rensen	1982-01-16	\N
+827	Birol 횥nel	1961-08-18	\N
+828	Bj철rk	\N	\N
+829	Bj철rn Hlynur Haraldsson	\N	\N
+830	Bj첩rn Sundquist	1948-06-16	\N
 831	Black Thomas	1969-08-28	\N
 832	Blaine Anderson	\N	\N
 833	Blair Brown	1946-04-23	\N
@@ -6085,7 +6055,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 974	Brian Dorton	\N	\N
 975	Brian Doyle-Murray	1945-10-31	\N
 976	Brian Eno	1948-05-15	\N
-977	Br梨쟞n F. O'Byrne	1967-05-16	\N
+977	Br챠an F. O'Byrne	1967-05-16	\N
 978	Brian Geraghty	1975-05-13	\N
 979	Brian Gibson	1944-09-22	2004-01-04
 980	Brian Helgeland	1961-01-17	\N
@@ -6176,7 +6146,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1065	Bud Cort	1948-03-29	\N
 1066	Bunta Sugawara	1933-08-16	2014-11-28
 1067	Burgess Meredith	1907-11-16	1997-09-09
-1068	Burghart Klau�슜ner	1949-09-13	\N
+1068	Burghart Klau횩ner	1949-09-13	\N
 1069	Burl Ives	1909-06-14	1995-04-14
 1070	Burr Steers	1965-10-08	\N
 1071	Burt Kwouk	1930-07-18	2016-05-24
@@ -6305,9 +6275,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1194	Cecelia Antoinette	\N	\N
 1195	Cecil B. DeMille	1881-08-12	1959-01-21
 1196	Cecil Kellaway	1893-08-22	1973-02-28
-1197	C梨뷵ile De France	1975-07-17	\N
+1197	C챕cile De France	1975-07-17	\N
 1198	Cecilia Pillado	\N	\N
-1199	C梨뷶ric Klapisch	1961-09-04	\N
+1199	C챕dric Klapisch	1961-09-04	\N
 1200	Cedric Nicolas-Troyan	1969-03-09	\N
 1201	Cedric the Entertainer	1964-04-24	\N
 1202	Celeste Holm	1917-04-29	2012-07-15
@@ -6335,7 +6305,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1224	Charles Aidman	1925-01-21	1993-11-07
 1225	Charles Aznavour	1924-05-22	\N
 1226	Charles Baker	1971-02-27	\N
-1227	Charles Binam梨�	\N	\N
+1227	Charles Binam챕	\N	\N
 1228	Charles Chaplin	1889-04-16	1977-12-25
 1229	Charles Ferguson	1955-03-24	\N
 1230	Charles Grodin	1935-04-21	\N
@@ -6367,7 +6337,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1256	Charlie Talbert	1978-12-13	\N
 1257	Charlie Yeung	1974-05-23	\N
 1258	Charlize Theron	1975-08-07	\N
-1259	Charlotte B泥쯸ing	1964-08-15	\N
+1259	Charlotte B첩ving	1964-08-15	\N
 1260	Charlotte Le Bon	1986-09-04	\N
 1261	Charlotte Lewis	1967-08-07	\N
 1262	Charlotte Rae	1926-04-22	\N
@@ -6416,7 +6386,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1305	Ching Wan Lau	1964-02-16	\N
 1306	Chita Rivera	1933-01-23	\N
 1307	Chloe Bridges	1991-12-27	\N
-1308	Chlo梨� Grace Moretz	1997-02-10	\N
+1308	Chlo챘 Grace Moretz	1997-02-10	\N
 1309	Chloe Hollings	\N	\N
 1310	Chloe Rose	1994-10-25	\N
 1311	Chris 'Wonder' Schoeck	\N	\N
@@ -6558,7 +6528,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1447	Chuck Sheetz	1960-12-31	\N
 1448	Chuck Zito	1953-03-01	\N
 1449	Chulpan Khamatova	1975-10-01	\N
-1450	Ciar李펝 Foy	\N	\N
+1450	Ciar찼n Foy	\N	\N
 1451	Cicely Tyson	1924-12-18	\N
 1452	Cinda McCain	\N	\N
 1453	Cindy Robinson	1968-04-06	\N
@@ -6586,11 +6556,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1475	Claude Rains	1889-11-10	1967-05-30
 1476	Claude-Oliver Rudolph	1956-11-30	\N
 1477	Claudette Colbert	1903-09-13	1996-07-30
-1478	Claudette Lal梨�	1975-08-01	\N
+1478	Claudette Lal챠	1975-08-01	\N
 1479	Claudia Cardinale	1938-04-15	\N
 1480	Claudia Christian	1965-08-10	\N
 1481	Claudia Ferri	\N	\N
-1482	Claudia Lapac泥�	1940-06-25	\N
+1482	Claudia Lapac처	1940-06-25	\N
 1483	Claudia Llosa	1976-11-15	\N
 1484	Claudia Sainte-Luce	\N	\N
 1485	Claudia Stedelin	\N	\N
@@ -6599,7 +6569,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1488	Clayne Crawford	1978-04-20	\N
 1489	Clayton Rohner	1957-08-05	\N
 1490	Clayton Snyder	1987-09-09	\N
-1491	Cl梨� Bennett	1950-03-18	\N
+1491	Cl챕 Bennett	1950-03-18	\N
 1492	Clea DuVall	1977-09-25	\N
 1493	Cleavon Little	1939-06-01	1992-10-22
 1494	Clemens Schick	1972-02-15	\N
@@ -6667,7 +6637,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1556	Constance Marie	1965-09-09	\N
 1557	Constance Shulman	1958-04-04	\N
 1558	Constance Wu	1982-03-22	\N
-1559	Consuelo G泥쁬ez	\N	\N
+1559	Consuelo G처mez	\N	\N
 1560	Corbin Allred	1979-05-25	\N
 1561	Corbin Bernsen	1954-09-07	\N
 1562	Corbin Bleu	1989-02-21	\N
@@ -6711,7 +6681,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1600	Craig Zobel	\N	\N
 1601	Cree Kelly	\N	\N
 1602	Cree Summer	1969-07-07	\N
-1603	Cristi李펝 de la Fuente	1974-03-10	\N
+1603	Cristi찼n de la Fuente	1974-03-10	\N
 1604	Cristian Mungiu	1968-04-27	\N
 1605	Crystal Lowe	1981-01-20	\N
 1606	Crystal R. Fox	\N	\N
@@ -6741,19 +6711,19 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1630	D.W. Griffith	1875-01-22	1948-07-23
 1631	Dabney Coleman	1932-01-03	\N
 1632	Dagmara Dominczyk	1976-07-17	\N
-1633	Dagur K李펢i	1973-12-12	\N
+1633	Dagur K찼ri	1973-12-12	\N
 1634	Dahong Ni	\N	\N
 1635	Daisy Betts	\N	\N
 1636	Daisy Ridley	1992-04-10	\N
 1637	Daisy von Scherler Mayer	1966-09-14	\N
 1638	Dal-su Oh	1968-06-15	\N
-1639	Dalia Hern李펝dez	1985-08-14	\N
+1639	Dalia Hern찼ndez	1985-08-14	\N
 1640	Dalip Singh	1972-08-27	\N
 1641	Dallas Barnett	1964-02-29	\N
 1642	Dallas Roberts	1970-05-10	\N
 1643	Dameon Clarke	1972-01-16	\N
-1644	Dami李펝 Alc李펮ar	1953-01-08	\N
-1645	Dami李펝 Delgado	\N	\N
+1644	Dami찼n Alc찼zar	1953-01-08	\N
+1645	Dami찼n Delgado	\N	\N
 1646	Damian Jewan Lee	\N	\N
 1647	Damian Lewis	1971-02-11	\N
 1648	Damian Nieman	\N	\N
@@ -6810,7 +6780,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1699	Daniel Davila	\N	\N
 1700	Daniel Espinosa	1977-03-23	\N
 1701	Daniel Franzese	1978-05-09	\N
-1702	Daniel Gim梨븂ez Cacho	1961-05-15	\N
+1702	Daniel Gim챕nez Cacho	1961-05-15	\N
 1703	Daniel Henney	1979-11-28	\N
 1704	Daniel Hsia	\N	\N
 1705	Daniel Kaluuya	\N	\N
@@ -7084,7 +7054,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1973	Deborah Kara Unger	1966-05-12	\N
 1974	Deborah Kerr	1921-09-30	2007-10-16
 1975	Deborah Mailman	1972-07-14	\N
-1976	D梨뷳orah R梨븎y	\N	\N
+1976	D챕borah R챕vy	\N	\N
 1977	Deborah Twiss	1971-12-22	\N
 1978	Deborra-Lee Furness	1955-12-08	\N
 1979	Debra Granik	1963-02-06	\N
@@ -7104,12 +7074,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 1993	Del Zamora	\N	\N
 1994	Dell Yount	\N	\N
 1995	Della Reese	1931-07-06	\N
-1996	Delphine Chan梨뷲c	1978-11-14	\N
+1996	Delphine Chan챕ac	1978-11-14	\N
 1997	Delroy Lindo	1952-11-18	\N
 1998	Demetri Martin	1973-05-25	\N
 1999	Demetrius Grosse	1981-02-26	\N
 2000	Demi Moore	1962-11-11	\N
-2001	Demi李펝 Bichir	1963-08-01	\N
+2001	Demi찼n Bichir	1963-08-01	\N
 2002	Demian Lichtenstein	\N	\N
 2003	Dena Seidel	\N	\N
 2004	Denden	1950-01-23	\N
@@ -7204,14 +7174,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2093	Dom DeLuise	1933-08-01	2009-05-04
 2094	Domenick Lombardozzi	1976-03-25	\N
 2095	Dominic Burns	\N	\N
-2096	Dominic Col泥쁭	\N	\N
+2096	Dominic Col처n	\N	\N
 2097	Dominic Cooper	1978-06-02	\N
 2098	Dominic Flores	\N	\N
 2099	Dominic Monaghan	1976-12-08	\N
 2100	Dominic Sena	1949-04-26	\N
 2101	Dominick Brascia	\N	\N
 2102	Dominik Castell	1965-07-20	\N
-2103	Dominik Garc梨쟞-Lorido	1983-08-16	\N
+2103	Dominik Garc챠a-Lorido	1983-08-16	\N
 2104	Dominique McElligott	1986-05-03	\N
 2105	Dominique Othenin-Girard	1958-02-13	\N
 2106	Dominique Sanda	1948-03-11	\N
@@ -7295,7 +7265,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2184	Duane Jones	1937-02-02	1988-07-22
 2185	Duane Journey	\N	\N
 2186	Duke Johnson	1979-03-20	\N
-2187	Dul梨� Hill	\N	\N
+2187	Dul챕 Hill	\N	\N
 2188	Duncan Jones	1971-05-30	\N
 2189	Duncan Tucker	\N	\N
 2190	Dustin Diamond	1977-01-07	\N
@@ -7355,7 +7325,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2244	Eden Riegel	1981-01-01	\N
 2245	Edgar Arreola	\N	\N
 2246	Edgar Buchanan	1903-03-20	1979-04-04
-2247	Edgar Ram梨쟲ez	1977-03-25	\N
+2247	Edgar Ram챠rez	1977-03-25	\N
 2248	Edgar Tancangco	\N	\N
 2249	Edgar Wright	1974-04-18	\N
 2250	Edi Gathegi	1979-03-10	\N
@@ -7363,9 +7333,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2252	Edith Massey	1918-05-28	1984-10-24
 2253	Edmund McMillen	\N	\N
 2254	Edouard Baer	1966-12-01	\N
-2255	Eduard Fern李펝dez	1964-08-25	\N
+2255	Eduard Fern찼ndez	1964-08-25	\N
 2256	Eduardo Noriega	1973-08-01	\N
-2257	Eduardo Ver李펣tegui	1974-05-21	\N
+2257	Eduardo Ver찼stegui	1974-05-21	\N
 2258	Edward Andrews	\N	\N
 2259	Edward Burns	\N	\N
 2260	Edward Conna	1968-06-19	\N
@@ -7447,10 +7417,10 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2336	Embeth Davidtz	1965-08-11	\N
 2337	Eme Ikwuakor	\N	\N
 2338	Emile Ardolino	1943-05-09	1993-11-20
-2339	�쉵mile Gaudreault	\N	\N
+2339	횋mile Gaudreault	\N	\N
 2340	Emilia Clarke	1986-10-23	\N
 2341	Emilia Fox	1974-07-31	\N
-2342	�쉵milie Dequenne	1981-08-29	\N
+2342	횋milie Dequenne	1981-08-29	\N
 2343	Emilio Estefan Jr.	1953-03-04	\N
 2344	Emilio Estevez	1962-05-12	\N
 2345	Emily Alyn Lind	\N	\N
@@ -7478,7 +7448,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2367	Emma Watson	1990-04-15	\N
 2368	Emma-Kate Croghan	\N	\N
 2369	Emmanuel Kabongo	1986-12-25	\N
-2370	Emmanuelle B梨뷲rt	1963-08-14	\N
+2370	Emmanuelle B챕art	1963-08-14	\N
 2371	Emmanuelle Bercot	1967-11-06	\N
 2372	Emmanuelle Riva	1927-02-24	2017-01-27
 2373	Emmanuelle Seigner	1966-06-22	\N
@@ -7488,7 +7458,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2377	Enrique Begne	\N	\N
 2378	Enrique Iglesias	1975-05-08	\N
 2379	Enrique Murciano	1973-07-09	\N
-2380	Enrique Vill梨븂	\N	\N
+2380	Enrique Vill챕n	\N	\N
 2381	Enzo Petito	1897-07-24	1967-07-17
 2382	Eoin Macken	1987-04-15	\N
 2383	Eric Ambriz	\N	\N
@@ -7529,7 +7499,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2418	Eric Stuart	1967-10-18	\N
 2419	Eric Styles	\N	\N
 2420	Eric Sykes	1923-05-04	2012-07-04
-2421	�쉵ric Tessier	1883-05-28	1973-06-01
+2421	횋ric Tessier	1883-05-28	1973-06-01
 2422	Eric Valette	\N	\N
 2423	Eric Winter	1976-07-17	\N
 2424	Eric Worre	\N	\N
@@ -7574,8 +7544,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2463	Ethan Peck	1986-03-02	\N
 2464	Ethan Stiefel	\N	\N
 2465	Ethan Suplee	1976-05-25	\N
-2466	�쉵tienne Faure	\N	\N
-2467	Eug梨봭e Louri梨�	1903-04-08	1991-05-26
+2466	횋tienne Faure	\N	\N
+2467	Eug챔ne Louri챕	1903-04-08	1991-05-26
 2468	Eugene Roche	1928-09-22	2004-07-28
 2469	Eugenia Khirivskaya	1981-09-03	\N
 2470	Eugenie Bondurant	1961-04-27	\N
@@ -7608,7 +7578,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2497	Ezra Miller	1992-09-30	\N
 2498	F. Gary Gray	1969-07-17	\N
 2499	F. Murray Abraham	1939-10-24	\N
-2500	Fabi李펝 Bielinsky	1959-02-03	2006-06-28
+2500	Fabi찼n Bielinsky	1959-02-03	2006-06-28
 2501	Fabian Bolin	\N	\N
 2502	Fabio Testi	1941-08-02	\N
 2503	Fabrice Luchini	1951-11-01	\N
@@ -7624,12 +7594,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2513	Fay Masterson	1974-04-15	\N
 2514	Faye Dunaway	1941-01-14	\N
 2515	Fede Alvarez	1978-02-09	\N
-2516	Fedja van Hu梨뾲	1973-06-21	\N
+2516	Fedja van Hu챗t	1973-06-21	\N
 2517	Fedor Bondarchuk	1967-05-09	\N
 2518	Felicia Pearson	1980-05-18	\N
 2519	Felicity Huffman	1962-12-09	\N
 2520	Felix Avitia	2002-10-03	\N
-2521	F梨뷿ix Moati	1989-08-04	\N
+2521	F챕lix Moati	1989-08-04	\N
 2522	Fenella Woolgar	1969-08-04	\N
 2523	Fenton Bailey	\N	\N
 2524	Ferdinando Vetere	\N	\N
@@ -7641,7 +7611,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2530	Fernanda Torres	1965-09-14	\N
 2531	Fernando Baez Mella	\N	\N
 2532	Fernando Cayo	1968-04-22	\N
-2533	Fernando Le泥쁭 de Aranoa	1968-05-26	\N
+2533	Fernando Le처n de Aranoa	1968-05-26	\N
 2534	Fernando Meirelles	1955-11-09	\N
 2535	Fernando Rey	1917-09-20	1994-03-09
 2536	Feroz Abbas Khan	\N	\N
@@ -7680,7 +7650,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2569	Frances Fisher	1956-10-21	2016-12-27
 2570	Frances Lee McCain	1944-07-28	\N
 2571	Frances O'Connor	1967-06-12	\N
-2572	Francesc Pag梨봲	\N	\N
+2572	Francesc Pag챔s	\N	\N
 2573	Francesca Capaldi	\N	\N
 2574	Francesca Gregorini	1968-08-07	\N
 2575	Francesca Rettondini	1971-03-07	\N
@@ -7692,15 +7662,15 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2581	Franck Khalfoun	\N	\N
 2582	Franco Nero	1941-11-23	\N
 2583	Franco Zeffirelli	1923-02-12	\N
-2584	Fran梨똮is B梨뷺audeau	\N	\N
-2585	Fran梨똮is Berl梨뷲nd	1952-04-22	\N
-2586	Fran梨똮is Chau	1959-10-26	\N
-2587	Fran梨똮is Cluzet	1955-09-21	\N
-2588	Fran梨똮is Damiens	1973-01-17	\N
-2589	Fran梨똮is Girard	1963-01-12	\N
-2590	Fran梨똮is Ozon	1967-11-15	\N
-2591	Fran梨똮is Truffaut	1932-02-06	1984-10-21
-2592	Fran梨똮ise Yip	1972-09-04	\N
+2584	Fran챌ois B챕gaudeau	\N	\N
+2585	Fran챌ois Berl챕and	1952-04-22	\N
+2586	Fran챌ois Chau	1959-10-26	\N
+2587	Fran챌ois Cluzet	1955-09-21	\N
+2588	Fran챌ois Damiens	1973-01-17	\N
+2589	Fran챌ois Girard	1963-01-12	\N
+2590	Fran챌ois Ozon	1967-11-15	\N
+2591	Fran챌ois Truffaut	1932-02-06	1984-10-21
+2592	Fran챌oise Yip	1972-09-04	\N
 2593	Frank Borzage	1894-04-23	1962-06-19
 2594	Frank Capra	1897-05-18	1991-09-03
 2595	Frank Coraci	1966-02-03	\N
@@ -7747,9 +7717,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2636	Fred Wolf	1932-09-13	\N
 2637	Fred Zinnemann	1907-04-29	1997-03-14
 2638	Freddie Jones	1927-09-12	\N
-2639	Freddy Rodr梨쟥uez	1975-01-17	\N
-2640	Fr梨뷶梨븈ic Auburtin	1962-06-04	\N
-2641	Fr梨뷶梨븈ic Forestier	\N	\N
+2639	Freddy Rodr챠guez	1975-01-17	\N
+2640	Fr챕d챕ric Auburtin	1962-06-04	\N
+2641	Fr챕d챕ric Forestier	\N	\N
 2642	Frederic Forrest	1936-12-23	\N
 2643	Frederick Weller	1947-06-24	\N
 2644	Frederik Du Chau	1965-05-15	\N
@@ -7761,10 +7731,10 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2650	G.J. Echternkamp	\N	\N
 2651	G.W. Bailey	1944-08-27	\N
 2652	G.W. Krauss	\N	\N
-2653	Gabe Ib李쇱굅ez	1971-06-07	\N
+2653	Gabe Ib찼챰ez	1971-06-07	\N
 2654	Gabor Csupo	1952-09-29	\N
 2655	Gabourey Sidibe	1983-05-06	\N
-2656	Gabriel Almir泥쁭	\N	\N
+2656	Gabriel Almir처n	\N	\N
 2657	Gabriel Bateman	\N	\N
 2658	Gabriel Beristain	1955-05-09	\N
 2659	Gabriel Damon	1976-04-23	\N
@@ -7784,7 +7754,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2673	Gaia Weiss	1991-08-30	\N
 2674	Gale Sondergaard	1899-02-15	1985-08-14
 2675	Gano Grills	\N	\N
-2676	Garba Tour梨�	\N	\N
+2676	Garba Tour챕	\N	\N
 2677	Garcelle Beauvais	1966-11-26	\N
 2678	Gareth Edwards	\N	\N
 2679	Gareth Evans	\N	\N
@@ -7825,8 +7795,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2714	Gary Trousdale	1960-06-08	\N
 2715	Gary Weeks	1972-06-04	\N
 2716	Gary Winick	1961-03-31	2011-02-27
-2717	Gaspar No梨�	1963-12-27	\N
-2718	Gast泥쁭 Pauls	1972-01-17	\N
+2717	Gaspar No챕	1963-12-27	\N
+2718	Gast처n Pauls	1972-01-17	\N
 2719	Gauhar Khan	1983-08-23	\N
 2720	Gavin Hood	1963-05-12	\N
 2721	Gavin MacLeod	1931-02-28	\N
@@ -7844,8 +7814,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2733	Gene Simmons	1949-08-25	\N
 2734	Gene Teigland	\N	\N
 2735	Gene Tierney	1920-11-19	1991-11-06
-2736	Genevi梨봵e Bujold	1942-07-01	\N
-2737	Genevi梨봵e Lemon	\N	\N
+2736	Genevi챔ve Bujold	1942-07-01	\N
+2737	Genevi챔ve Lemon	\N	\N
 2738	Genevieve O'Reilly	1977-01-06	\N
 2739	Genndy Tartakovsky	1970-01-17	\N
 2740	Geoff Bell	\N	\N
@@ -7908,20 +7878,20 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2797	Geraldine McEwan	1932-05-09	2015-01-30
 2798	Gerard Butler	1969-11-13	\N
 2799	Gerard Johnstone	\N	\N
-2800	G梨븈ard Jugnot	1951-05-04	\N
-2801	G梨븈ard Krawczyk	1953-05-17	\N
+2800	G챕rard Jugnot	1951-05-04	\N
+2801	G챕rard Krawczyk	1953-05-17	\N
 2802	Gerard McSorley	\N	\N
 2803	Gerardo Taracena	\N	\N
-2804	Germ李펝 Alcarazu	\N	\N
+2804	Germ찼n Alcarazu	\N	\N
 2805	Gerry Becker	1951-04-11	\N
 2806	Gerry Bednob	\N	\N
 2807	Gerry Lively	\N	\N
 2808	Gerry Lopez	\N	\N
-2809	Gert Fr泥쟟e	1913-02-25	1988-09-05
+2809	Gert Fr철be	1913-02-25	1988-09-05
 2810	Ghassan Massoud	1958-09-20	\N
 2811	Gia Coppola	1987-01-01	\N
 2812	Gia Mantegna	1990-04-17	\N
-2813	Gian Maria Volont梨�	1933-04-09	1994-12-06
+2813	Gian Maria Volont챔	1933-04-09	1994-12-06
 2814	Giancarlo Giannini	1942-08-01	\N
 2815	Gideon Emery	1972-09-12	\N
 2816	Gideon Raff	\N	\N
@@ -7977,7 +7947,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2866	Gloria Votsis	1979-02-09	\N
 2867	Glynis Johns	1923-10-05	\N
 2868	Gnana Rajasekaran	\N	\N
-2869	Gonzalo L泥쁯ez-Gallego	\N	\N
+2869	Gonzalo L처pez-Gallego	\N	\N
 2870	Goran Dukic	\N	\N
 2871	Goran Visnjic	1972-09-09	\N
 2872	Gordon Chan	\N	\N
@@ -8048,8 +8018,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2937	Gurinder Chadha	1960-01-10	\N
 2938	Guro Nagelhus Schia	\N	\N
 2939	Gus Van Sant	1952-07-24	\N
-2940	Gustaf Skarsg梨꿹d	1980-11-12	\N
-2941	Gustav Fr泥쟦lich	1902-03-21	1987-12-22
+2940	Gustaf Skarsg책rd	1980-11-12	\N
+2941	Gustav Fr철hlich	1902-03-21	1987-12-22
 2942	Guy Hamilton	1964-03-25	\N
 2943	Guy Maddin	1956-02-28	\N
 2944	Guy Ritchie	1968-09-10	\N
@@ -8077,7 +8047,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2966	Hannah Murray	1989-07-01	\N
 2967	Hannah Spearritt	1981-04-01	\N
 2968	Hanne Aagesen	1933-01-11	2016-03-18
-2969	Hanno P泥쟳chl	1949-07-02	\N
+2969	Hanno P철schl	1949-07-02	\N
 2970	Hans Canosa	\N	\N
 2971	Hans Kesting	1960-10-06	\N
 2972	Hans Matheson	1975-08-07	\N
@@ -8087,7 +8057,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 2976	Hao Ning	\N	\N
 2977	Harald Reinl	1908-07-09	1986-10-09
 2978	Harald Zwart	1965-07-01	\N
-2979	Hardy Kr泥큙er	1928-04-12	\N
+2979	Hardy Kr체ger	1928-04-12	\N
 2980	Hark Tsui	1950-02-15	\N
 2981	Harland Williams	1962-11-14	\N
 2982	Harley Cokeliss	1945-02-11	\N
@@ -8141,7 +8111,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3030	Heather Sossaman	1987-04-25	\N
 3031	Hector Echavarria	1969-12-06	\N
 3032	Hector Elizondo	1936-12-22	\N
-3033	H梨뷵tor Jim梨븂ez	1973-12-14	\N
+3033	H챕ctor Jim챕nez	1973-12-14	\N
 3034	Hector Kotsifakis	\N	\N
 3035	Hedy Lamarr	1914-11-09	2000-01-19
 3036	Heidi Ewing	\N	\N
@@ -8169,12 +8139,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3058	Henry Simmons	1970-07-01	\N
 3059	Henry Thomas	1971-09-09	\N
 3060	Herb Freed	\N	\N
-3061	Herbert Gr泥쟮emeyer	1956-04-12	\N
+3061	Herbert Gr철nemeyer	1956-04-12	\N
 3062	Herbert Lom	1917-09-11	2012-09-27
 3063	Herbert Ross	1927-05-13	2001-10-09
 3064	Herbert Russell	\N	\N
 3065	Herman Koto	\N	\N
-3066	Herv梨� Villechaize	1943-04-23	1993-09-04
+3066	Herv챕 Villechaize	1943-04-23	1993-09-04
 3067	Hiam Abbass	1960-11-30	\N
 3068	Hideaki Anno	1960-05-22	\N
 3069	Hideo Nakata	1961-07-19	\N
@@ -8270,9 +8240,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3159	Indiana Evans	1990-07-27	\N
 3160	Indira Varma	1973-05-14	\N
 3161	Ingmar Bergman	1918-07-14	2007-07-30
-3162	Ingrid Bols泥� Berdal	1980-03-02	\N
+3162	Ingrid Bols첩 Berdal	1980-03-02	\N
 3163	Ingrid Thulin	1926-01-27	2004-01-07
-3164	Ingvar Eggert Sigur梨쮛son	1963-11-22	\N
+3164	Ingvar Eggert Sigur챨sson	1963-11-22	\N
 3165	Inna Evlannikova	\N	\N
 3166	Ioan Gruffudd	1973-10-06	\N
 3167	Ion Overman	1976-11-09	\N
@@ -8280,7 +8250,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3169	Ira Sachs	\N	\N
 3170	Irene Bedard	1967-07-22	\N
 3171	Irene Dunne	1898-12-20	1990-09-04
-3172	Ir梨봭e Jacob	1966-07-15	\N
+3172	Ir챔ne Jacob	1966-07-15	\N
 3173	Irene Papas	1926-09-03	\N
 3174	Irvin Kershner	1923-04-29	2010-11-27
 3175	Irwin Winkler	1931-05-28	\N
@@ -8288,24 +8258,24 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3177	Isaac Florentine	\N	\N
 3178	Isaac Hayes	1942-08-20	2008-08-10
 3179	Isaac Hempstead Wright	1999-04-09	\N
-3180	Isaach De Bankol梨�	1957-08-12	\N
+3180	Isaach De Bankol챕	1957-08-12	\N
 3181	Isabel Coixet	1960-04-09	\N
 3182	Isabella Rossellini	1952-06-18	\N
 3183	Isabelle Adjani	1955-06-27	\N
-3184	Isabelle Carr梨�	1971-05-28	\N
+3184	Isabelle Carr챕	1971-05-28	\N
 3185	Isabelle Huppert	1953-03-16	\N
 3186	Isabelle Nanty	1962-01-21	\N
-3187	Isabelle N梨뷿isse	\N	\N
+3187	Isabelle N챕lisse	\N	\N
 3188	Isaiah Washington	1963-08-03	\N
 3189	Isiah Thomas	1961-04-30	\N
 3190	Isiah Whitlock Jr.	1954-09-13	\N
 3191	Isild Le Besco	1982-11-22	\N
-3192	Istv李펝 Szab泥�	\N	\N
+3192	Istv찼n Szab처	\N	\N
 3193	Iulia Ciochina	\N	\N
 3194	Ivan Barnev	1973-07-15	\N
 3195	Ivan Dixon	1931-04-06	2008-03-16
 3196	Ivan Engler	\N	\N
-3197	Iv李펝 Kamar李펣	1972-12-22	\N
+3197	Iv찼n Kamar찼s	1972-12-22	\N
 3198	Ivan Kavanagh	\N	\N
 3199	Ivan Okhlobystin	1966-07-22	\N
 3200	Ivan Reitman	1946-10-27	\N
@@ -8513,7 +8483,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3402	Jamie Hector	1975-10-07	\N
 3403	Jamie Kennedy	1970-05-25	\N
 3404	Jamie Lee Curtis	1958-11-22	\N
-3405	Jamie Ren梨뷷 Smith	1987-04-10	\N
+3405	Jamie Ren챕e Smith	1987-04-10	\N
 3406	Jamie Thraves	\N	\N
 3407	Jamie Travis	1979-08-13	\N
 3408	Jamin Winans	\N	\N
@@ -8600,7 +8570,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3489	Jasper Cole	\N	\N
 3490	Jasper Johal	\N	\N
 3491	Jasper Levine	\N	\N
-3492	Jaume Balaguer泥�	1968-11-02	\N
+3492	Jaume Balaguer처	1968-11-02	\N
 3493	Jaume Collet-Serra	1974-03-23	\N
 3494	Javed Jaffrey	1963-12-04	\N
 3495	Javed Sheikh	1954-10-08	\N
@@ -8638,7 +8608,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3527	Jean-Baptiste Maunier	1990-12-22	\N
 3528	Jean-Claude Dreyfus	1946-02-18	\N
 3529	Jean-Claude Lecas	1953-05-02	\N
-3530	Jean-Fran梨똮is Richet	1966-07-02	\N
+3530	Jean-Fran챌ois Richet	1966-07-02	\N
 3531	Jean-Hugues Anglade	1955-07-29	\N
 3532	Jean-Jacques Annaud	1943-10-01	\N
 3533	Jean-Jacques Mantello	\N	\N
@@ -8646,13 +8616,13 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3535	Jean-Louis Trintignant	1930-12-11	\N
 3536	Jean-Luc Godard	1930-12-03	\N
 3537	Jean-Marc Barr	1960-09-27	\N
-3538	Jean-Marc Vall梨뷷	1963-03-09	\N
-3539	Jean-Marie Poir梨�	1945-07-10	\N
+3538	Jean-Marc Vall챕e	1963-03-09	\N
+3539	Jean-Marie Poir챕	1945-07-10	\N
 3540	Jean-Paul Belmondo	1933-04-09	\N
 3541	Jean-Paul Rappeneau	1932-04-08	\N
 3542	Jean-Pierre Darroussin	1953-12-04	\N
 3543	Jean-Pierre Jeunet	1953-09-03	\N
-3544	Jean-Pierre L梨뷲ud	1944-05-28	\N
+3544	Jean-Pierre L챕aud	1944-05-28	\N
 3545	Jeanette Branch	\N	\N
 3546	Jeanne Crain	1925-05-25	2003-12-14
 3547	Jeanne Moreau	1928-01-23	\N
@@ -8766,10 +8736,10 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3655	Jeremy Sims	1966-01-10	\N
 3656	Jeremy W. Auman	\N	\N
 3657	Jeri Ryan	1968-02-22	\N
-3658	J梨븈泥셫e Deschamps	\N	\N
+3658	J챕r척me Deschamps	\N	\N
 3659	Jerome Elston Scott	\N	\N
 3660	Jerome Robbins	1918-10-11	1998-07-29
-3661	J梨븈泥셫e Salle	\N	\N
+3661	J챕r척me Salle	\N	\N
 3662	Jerry Belson	1938-07-08	2006-10-10
 3663	Jerry Brown	\N	\N
 3664	Jerry Dugan	\N	\N
@@ -8812,7 +8782,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3701	Jessica Lowndes	1988-11-08	\N
 3702	Jessica Mauboy	1989-08-04	\N
 3703	Jessica McNamee	\N	\N
-3704	Jessica Par梨�	\N	\N
+3704	Jessica Par챕	\N	\N
 3705	Jessica Raine	\N	\N
 3706	Jessica Simpson	1980-07-10	\N
 3707	Jessica Szohr	1985-03-31	\N
@@ -8824,7 +8794,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3713	Jessika Van	1985-05-28	\N
 3714	Jessy Schram	1986-01-15	\N
 3715	Jessy Terrero	1975-07-03	\N
-3716	Jesu梨쟴a Barbosa	\N	\N
+3716	Jesu챠ta Barbosa	\N	\N
 3717	Jet Li	1963-04-26	\N
 3718	Jeta Amata	\N	\N
 3719	Jez Butterworth	\N	\N
@@ -8881,13 +8851,13 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3770	Jimmy Shubert	\N	\N
 3771	Jimmy Smits	1955-07-09	\N
 3772	Jin Akanishi	1984-07-04	\N
-3773	Jir梨� Menzel	1938-02-23	\N
+3773	Jir챠 Menzel	1938-02-23	\N
 3774	Jizelle Jade	1995-03-08	\N
 3775	JJ Feild	1978-04-01	\N
 3776	JK Youn	\N	\N
 3777	Jo Hartley	1972-03-12	\N
 3778	Jo Prestia	1960-06-05	\N
-3779	Joachim R泥쯰ning	1972-05-30	\N
+3779	Joachim R첩nning	1972-05-30	\N
 3780	Joan Allen	1956-08-20	\N
 3781	Joan Baez	1941-01-09	\N
 3782	Joan Chen	1961-04-26	\N
@@ -8902,7 +8872,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3791	Joanne Samuel	1957-08-05	\N
 3792	Joanne Whalley	1961-08-25	\N
 3793	Joaquim de Almeida	1957-03-15	\N
-3794	Joaqu梨쟮 Cosio	\N	\N
+3794	Joaqu챠n Cosio	\N	\N
 3795	JoBeth Williams	1948-12-06	\N
 3796	Joby Harold	\N	\N
 3797	Jodi Benson	1961-10-10	\N
@@ -8972,7 +8942,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 3861	Joey Slotnick	1968-10-02	\N
 3862	Joffre Soares	1918-09-21	1996-08-19
 3863	Johanna Braddy	1987-08-30	\N
-3864	Johanna M泥쯴ck	\N	\N
+3864	Johanna M첩rck	\N	\N
 3865	Johanna Schwartz	\N	\N
 3866	Johanna Wokalek	1975-03-03	\N
 3867	Johannes Silberschneider	1958-12-13	\N
@@ -9172,7 +9142,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4061	Jon Turteltaub	1963-08-08	\N
 4062	Jon Wright	1963-12-11	\N
 4063	Jonah Bobo	1997-01-24	\N
-4064	Jonas �쉯kerlund	1965-11-10	\N
+4064	Jonas 횇kerlund	1965-11-10	\N
 4065	Jonas Elmer	1966-03-14	\N
 4066	Jonathan Blow	\N	\N
 4067	Jonathan Brandis	1976-04-13	2003-11-12
@@ -9217,25 +9187,25 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4106	Jordan Trovillion	\N	\N
 4107	Jordana Brewster	1980-04-26	\N
 4108	Jordana Spiro	1977-04-12	\N
-4109	Jordi Moll�슞	1968-07-01	\N
+4109	Jordi Moll횪	1968-07-01	\N
 4110	Jordi Vilasuso	1981-06-15	\N
 4111	Jorge Blanco	\N	\N
 4112	Jorge Diaz	\N	\N
 4113	Jorge Gaggero	\N	\N
 4114	Jorge Garcia	1973-04-28	\N
 4115	Jorge Luis Moreno	1981-12-19	\N
-4116	Jorge R. Guti梨븈rez	\N	\N
-4117	Jorge Ram梨쟲ez Su李펢ez	\N	\N
+4116	Jorge R. Guti챕rrez	\N	\N
+4117	Jorge Ram챠rez Su찼rez	\N	\N
 4118	Jorge Salinas	1968-07-27	\N
-4119	J泥쯴gen Langhelle	1965-08-18	\N
+4119	J첩rgen Langhelle	1965-08-18	\N
 4120	Jorja Fox	1968-07-07	\N
 4121	Jorma Taccone	1977-03-19	\N
-4122	Jos梨� Ferrer	1955-02-07	2017-01-19
-4123	Jos梨� Luis Valenzuela	\N	\N
-4124	Jos梨� Manuel Orozco Angulo	\N	\N
+4122	Jos챕 Ferrer	1955-02-07	2017-01-19
+4123	Jos챕 Luis Valenzuela	\N	\N
+4124	Jos챕 Manuel Orozco Angulo	\N	\N
 4125	Jose Pablo Cantillo	1979-03-30	\N
-4126	Jos梨� Padilha	1967-08-01	\N
-4127	Jos梨� Wilker	1946-08-20	2014-04-05
+4126	Jos챕 Padilha	1967-08-01	\N
+4127	Jos챕 Wilker	1946-08-20	2014-04-05
 4128	Joseba Ugalde	\N	\N
 4129	Josef Rusnak	\N	\N
 4130	Joseph Campanella	1924-11-21	\N
@@ -9299,8 +9269,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4188	Jsu Garcia	1963-10-06	\N
 4189	Juan Carlos Fresnadillo	1967-12-05	\N
 4190	Juan Carlos Montoya	1974-10-14	\N
-4191	Juan Fern李펝dez	1900-12-27	1974-02-03
-4192	Juan Jos梨� Campanella	1959-07-19	\N
+4191	Juan Fern찼ndez	1900-12-27	1974-02-03
+4192	Juan Jos챕 Campanella	1959-07-19	\N
 4193	Juan Luis Galiardo	1940-03-02	2012-06-22
 4194	Juan Riedinger	1981-02-27	\N
 4195	Jud Tylor	1979-03-24	\N
@@ -9312,7 +9282,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4201	Judith Anderson	1897-02-10	1992-01-03
 4202	Judith Barsi	1978-06-06	1988-07-25
 4203	Judith Chapman	1951-11-15	\N
-4204	Judith Godr梨봠he	1972-03-23	\N
+4204	Judith Godr챔che	1972-03-23	\N
 4205	Judith Hill	\N	\N
 4206	Judith O'Dea	1945-04-20	\N
 4207	Judy Davis	1955-04-23	\N
@@ -9339,7 +9309,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4228	Julian Richings	1955-09-08	\N
 4229	Julian Sands	1958-01-04	\N
 4230	Julian Schnabel	1951-10-26	\N
-4231	Juliane K泥쟦ler	1965-08-06	\N
+4231	Juliane K철hler	1965-08-06	\N
 4232	Julianna Guill	1987-07-07	\N
 4233	Julianna Pitt	1984-05-17	\N
 4234	Julianne Gabert	\N	\N
@@ -9353,7 +9323,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4242	Julie Gonzalo	1981-09-09	\N
 4243	Julie Kavner	1950-09-07	\N
 4244	Julie LeBreton	\N	\N
-4245	Julie R. �슑lgaard	1981-09-29	\N
+4245	Julie R. 횠lgaard	1981-09-29	\N
 4246	Julie Taymor	1952-12-15	\N
 4247	Julie Walters	1950-02-22	\N
 4248	Julie-Marie Parmentier	1981-06-13	\N
@@ -9371,7 +9341,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4260	Jung-min Hwang	1970-09-01	\N
 4261	Junix Inocian	1951-03-17	2015-06-13
 4262	Juraj Jakubisko	1938-04-30	\N
-4263	J泥큥gen Prochnow	1941-06-10	\N
+4263	J체rgen Prochnow	1941-06-10	\N
 4264	Jurnee Smollett-Bell	1986-10-01	\N
 4265	Justin Baldoni	1984-01-24	\N
 4266	Justin Chadwick	1968-12-01	\N
@@ -9426,7 +9396,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4315	Kari Matchett	1970-03-25	\N
 4316	Kari Skogland	\N	\N
 4317	Kari Wuhrer	1967-04-28	\N
-4318	Karim A梨쫚ouz	1966-01-17	\N
+4318	Karim A챦nouz	1966-01-17	\N
 4319	Karin Dor	1938-02-22	\N
 4320	Karin Konoval	\N	\N
 4321	Karin Viard	1966-01-24	\N
@@ -9462,7 +9432,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4351	Kate Walsh	1967-10-13	\N
 4352	Kate Winslet	1975-10-05	\N
 4353	Kath Soucie	1953-11-18	\N
-4354	Katharina Sch泥큧tler	1979-10-20	\N
+4354	Katharina Sch체ttler	1979-10-20	\N
 4355	Katharine Isabelle	1981-11-02	\N
 4356	Katharine McPhee	1984-03-25	\N
 4357	Katharine Ross	1940-01-29	\N
@@ -9498,7 +9468,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4387	Katrina Bowden	1988-09-19	\N
 4388	Katrina Kaif	1984-07-16	\N
 4389	Katrina Law	1985-09-30	\N
-4390	Katsuhiro �슊tomo	1954-04-14	\N
+4390	Katsuhiro 횚tomo	1954-04-14	\N
 4391	Katt Shea	\N	\N
 4392	Katt Williams	\N	\N
 4393	Katy Helvenston-Wettengal	\N	\N
@@ -9592,11 +9562,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4481	Kenny Ortega	1950-04-18	\N
 4482	Kent Alterman	\N	\N
 4483	Kent McCord	1942-09-26	\N
-4484	Keram Malicki-S李펝chez	1974-05-14	\N
+4484	Keram Malicki-S찼nchez	1974-05-14	\N
 4485	Keri Lynn Pratt	1978-09-23	\N
 4486	Keri Maletto	1977-12-26	\N
 4487	Kerr Smith	1972-03-09	\N
-4488	Kerry Bish梨�	\N	\N
+4488	Kerry Bish챕	\N	\N
 4489	Kerry Cahill	\N	\N
 4490	Kerry Condon	1983-01-04	\N
 4491	Kerry Conran	1964-11-06	\N
@@ -9716,7 +9686,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4605	Klaus Maria Brandauer	1943-06-22	\N
 4606	Klaus Menzel	\N	\N
 4607	Kodi Smit-McPhee	1996-06-13	\N
-4608	K泥셣i Yakusho	1956-01-01	\N
+4608	K척ji Yakusho	1956-01-01	\N
 4609	Konstantin Khabenskiy	1972-01-11	\N
 4610	Konstantin Lavronenko	1961-04-20	\N
 4611	Kostja Ullmann	1984-05-30	\N
@@ -9808,7 +9778,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4697	Lars Ulrich	1963-12-26	\N
 4698	Lars von Trier	1956-04-30	\N
 4699	Laslo Benedek	1905-03-05	1992-03-11
-4700	Lasse Hallstr泥쟭	1946-06-02	\N
+4700	Lasse Hallstr철m	1946-06-02	\N
 4701	Lateef Crowder	1977-11-23	\N
 4702	Laura Breckenridge	1983-08-22	\N
 4703	Laura Brent	\N	\N
@@ -9847,9 +9817,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4736	Lawrence Kasanoff	1959-06-01	\N
 4737	Lawrence Kasdan	1949-01-14	\N
 4738	Laz Alonso	1974-03-25	\N
-4739	L梨뷲 Drucker	1972-01-23	\N
+4739	L챕a Drucker	1972-01-23	\N
 4740	Lea Michele	1986-08-29	\N
-4741	L梨뷲 Pool	\N	\N
+4741	L챕a Pool	\N	\N
 4742	Lea Thompson	1961-05-31	\N
 4743	Leah Remini	1970-06-15	\N
 4744	Lee Arenberg	1962-07-18	\N
@@ -9896,7 +9866,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4785	Leon Ichaso	1948-08-03	\N
 4786	Leon Isaac Kennedy	1949-01-01	\N
 4787	Leon Rippy	1949-10-30	\N
-4788	L梨븄n Schwartzenberg	\N	\N
+4788	L챕on Schwartzenberg	\N	\N
 4789	Leonard Farlinger	\N	\N
 4790	Leonard Nimoy	1931-03-26	2015-02-27
 4791	Leonard Roberts	1969-02-28	\N
@@ -9921,7 +9891,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4810	Leslie Small	\N	\N
 4811	Leslye Headland	1980-11-26	\N
 4812	Lester Speight	1963-01-07	\N
-4813	Leticia Br梨뷶ice	1972-08-26	\N
+4813	Leticia Br챕dice	1972-08-26	\N
 4814	Levan Gabriadze	1969-11-16	\N
 4815	LeVar Burton	1957-02-16	\N
 4816	Leven Rambin	1990-05-17	\N
@@ -10010,14 +9980,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4899	Liz Mullane	\N	\N
 4900	Liza Lapira	\N	\N
 4901	Liza Minnelli	1946-03-12	\N
-4902	Lizzie Brocher梨�	1985-03-22	\N
+4902	Lizzie Brocher챕	1985-03-22	\N
 4903	Ljubomir Kerekes	1960-01-16	\N
 4904	LL Cool J	1968-01-14	\N
 4905	Lloyd Avery II	1969-06-21	2005-09-04
 4906	Lloyd Bacon	1889-12-04	1955-11-15
 4907	Lloyd Bridges	1913-01-15	1998-03-10
 4908	Lloyd Kaufman	1945-12-30	\N
-4909	Llu梨쟳 Qu梨쟫ez	1978-12-08	\N
+4909	Llu챠s Qu챠lez	1978-12-08	\N
 4910	Loanne Bishop	1955-11-10	\N
 4911	Lobo Sebastian	\N	\N
 4912	Lochlyn Munro	1966-02-12	\N
@@ -10026,7 +9996,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 4915	Lois Chiles	1947-04-15	\N
 4916	Lois Maxwell	1927-02-14	2007-09-29
 4917	Lois Smith	1930-11-03	\N
-4918	Lola Due梨캻s	1971-10-06	\N
+4918	Lola Due챰as	1971-10-06	\N
 4919	Lola Glaudini	1971-11-24	\N
 4920	Lolita Davidovich	1961-07-15	\N
 4921	Lon Chaney Jr.	1906-02-10	1973-07-12
@@ -10141,7 +10111,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5030	Mabrouk El Mechri	\N	\N
 5031	Mac McDonald	1949-06-18	\N
 5032	Macaulay Culkin	1980-08-26	\N
-5033	Macha M梨븈il	\N	\N
+5033	Macha M챕ril	\N	\N
 5034	Mackenzie Aladjem	\N	\N
 5035	Mackenzie Crook	1971-09-29	\N
 5036	Mackenzie Davis	1987-04-01	\N
@@ -10174,7 +10144,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5063	Maia Morgenstern	1962-05-01	\N
 5064	Maika Monroe	1993-05-29	\N
 5065	Maile Flanagan	1965-05-19	\N
-5066	Ma梨쫤enn	1976-04-17	\N
+5066	Ma챦wenn	1976-04-17	\N
 5067	Majid Majidi	\N	\N
 5068	Mako	1936-10-25	\N
 5069	Maksim Fadeev	1968-05-06	\N
@@ -10184,7 +10154,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5073	Malik Yoba	1967-09-17	\N
 5074	Malika	\N	\N
 5075	Malone Thomas	\N	\N
-5076	Malonn L梨븎ana	\N	\N
+5076	Malonn L챕vana	\N	\N
 5077	Mamoru Hosoda	1967-09-19	\N
 5078	Man Li	1953-01-14	\N
 5079	Mandy Gonzalez	\N	\N
@@ -10192,7 +10162,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5081	Manish Dayal	1983-06-17	\N
 5082	Manny Perez	1969-05-05	\N
 5083	Manoj Bajpayee	1969-04-23	\N
-5084	M梨꿳s M梨꿹lind	1969-07-29	\N
+5084	M책ns M책rlind	1969-07-29	\N
 5085	Manuela Velasco	1975-10-23	\N
 5086	Mara Wilson	\N	\N
 5087	Marama Corlett	\N	\N
@@ -10208,7 +10178,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5097	Marc Lawrence	1917-07-19	2001-08-28
 5098	Marc Levin	\N	\N
 5099	Marc Macaulay	1957-10-13	\N
-5100	Marc Sch泥쟫ermann	1971-10-14	\N
+5100	Marc Sch철lermann	1971-10-14	\N
 5101	Marc Singer	\N	\N
 5102	Marc Trottier	1976-05-22	\N
 5103	Marc Webb	1974-08-31	\N
@@ -10224,7 +10194,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5113	Marco Kreuzpaintner	1977-03-11	\N
 5114	Marco Schnabel	\N	\N
 5115	Marco St. John	1939-05-07	\N
-5116	Marco Trevi梨컊	\N	\N
+5116	Marco Trevi챰o	\N	\N
 5117	Marcos Siega	1969-06-08	\N
 5118	Marcus Chong	1967-07-08	\N
 5119	Marcus Dunstan	\N	\N
@@ -10240,9 +10210,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5129	Margo Harshman	1986-03-04	\N
 5130	Margot Kidder	1948-10-17	\N
 5131	Mari Koda	1986-08-03	\N
-5132	Mar梨쟞 Alche	1983-04-23	\N
-5133	Mar梨쟞 Aura	\N	\N
-5134	Mar梨쟞 Botto	1974-02-10	\N
+5132	Mar챠a Alche	1983-04-23	\N
+5133	Mar챠a Aura	\N	\N
+5134	Mar챠a Botto	1974-02-10	\N
 5135	Maria Canals-Barrera	1966-09-28	\N
 5136	Maria Conchita Alonso	1957-06-29	\N
 5137	Maria Dizzia	1974-12-29	\N
@@ -10251,21 +10221,21 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5140	Maria Maggenti	\N	\N
 5141	Maria Schrader	1965-09-27	\N
 5142	Maria Thayer	1975-10-30	\N
-5143	Mar梨쟞 Valverde	1987-03-24	\N
+5143	Mar챠a Valverde	1987-03-24	\N
 5144	Mariah Carey	1970-03-27	\N
 5145	Marian Dziedziel	1947-08-05	\N
 5146	Marian Marsh	1913-10-17	2006-11-09
 5147	Marian Seldes	1928-08-23	2014-10-06
 5148	Marianna Palka	1981-09-07	\N
 5149	Marianne Denicourt	1966-05-14	\N
-5150	Maribel Verd泥�	1970-10-02	\N
-5151	Maricel �쉧lvarez	\N	\N
+5150	Maribel Verd첬	1970-10-02	\N
+5151	Maricel 횁lvarez	\N	\N
 5152	Marie Avgeropoulos	1986-06-17	\N
-5153	Marie F梨븈et	1945-05-26	2015-04-28
+5153	Marie F챕ret	1945-05-26	2015-04-28
 5154	Marie Gillain	1975-06-18	\N
 5155	Marie Pillet	1941-07-20	2009-02-13
 5156	Marie-Anne Chazel	1951-09-19	\N
-5157	Marie-Jos梨뷷 Croze	1970-02-23	\N
+5157	Marie-Jos챕e Croze	1970-02-23	\N
 5158	Mariel Hemingway	1961-11-22	\N
 5159	Marielle Heller	1979-10-01	\N
 5160	Mariette Monpierre	\N	\N
@@ -10288,7 +10258,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5177	Marisa Saks	1982-05-23	\N
 5178	Marisol Nichols	1973-11-02	\N
 5179	Marius A. Markevicius	1976-09-03	\N
-5180	Mark A.Z. Dipp梨�	\N	\N
+5180	Mark A.Z. Dipp챕	\N	\N
 5181	Mark Addy	1964-01-14	\N
 5182	Mark Andrews	1968-09-12	\N
 5183	Mark Bazeley	1970-09-30	\N
@@ -10336,7 +10306,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5225	Mark Wingett	1961-01-01	\N
 5226	Mark Young	\N	\N
 5227	Mark Zupan	1975-05-20	\N
-5228	Mark梨븊a Irglov李�	1988-02-28	\N
+5228	Mark챕ta Irglov찼	1988-02-28	\N
 5229	Marko Zaror	1978-06-10	\N
 5230	Marla Gibbs	1931-06-14	\N
 5231	Marla Sokoloff	1980-12-19	\N
@@ -10494,14 +10464,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5383	Maurice Compte	\N	\N
 5384	Maurice Joyce	1969-03-13	\N
 5385	Maurice LaMarche	1958-03-30	\N
-5386	Maurice Ro梨쁵es	1937-03-19	\N
+5386	Maurice Ro챘ves	1937-03-19	\N
 5387	Maurizio Benazzo	\N	\N
 5388	Maury Chaykin	1949-07-27	2010-07-27
 5389	Max Adler	1986-01-17	\N
 5390	Max Beesley	1971-04-16	\N
 5391	Max Casella	1967-06-06	\N
 5392	Max Cullen	1940-04-29	\N
-5393	Max F梨꼛berb泥쟠k	1950-09-22	\N
+5393	Max F채rberb철ck	1950-09-22	\N
 5394	Max Gail	1943-04-05	\N
 5395	Max Joseph	\N	\N
 5396	Max Kerstein	\N	\N
@@ -10533,7 +10503,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5422	Meghan Ory	1982-08-20	\N
 5423	Megyn Price	1971-03-24	\N
 5424	Mehcad Brooks	1980-10-25	\N
-5425	Mei Melan梨똮n	1980-03-03	\N
+5425	Mei Melan챌on	1980-03-03	\N
 5426	Meiert Avis	\N	\N
 5427	Mekhi Phifer	1974-12-29	\N
 5428	Mekia Cox	\N	\N
@@ -10545,7 +10515,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5434	Mel Rodriguez	1973-06-12	\N
 5435	Mel Smith	1952-12-03	2013-07-19
 5436	Mel Stuart	1928-09-02	2012-08-09
-5437	M梨뷿anie Doutey	1978-11-22	\N
+5437	M챕lanie Doutey	1978-11-22	\N
 5438	Melanie Griffith	1957-08-09	\N
 5439	Melanie Kinnaman	1953-12-18	\N
 5440	Melanie Papalia	1984-07-11	\N
@@ -10554,14 +10524,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5443	Melinda Dillon	1939-10-13	\N
 5444	Melissa Benoist	1988-10-04	\N
 5445	Melissa Bolona	\N	\N
-5446	M梨뷿issa D梨븉ormeaux-Poulin	\N	\N
+5446	M챕lissa D챕sormeaux-Poulin	\N	\N
 5447	Melissa Gilbert	1964-05-08	\N
 5448	Melissa McMeekin	1972-11-20	\N
 5449	Melissa Ordway	1983-03-31	\N
 5450	Melissa Roxburgh	1992-12-10	\N
 5451	Melissa Sagemiller	1974-06-01	\N
 5452	Melissa Sturm	\N	\N
-5453	M梨뷿issa Theuriau	1978-07-18	\N
+5453	M챕lissa Theuriau	1978-07-18	\N
 5454	Melonie Diaz	1984-04-25	\N
 5455	Melora Walters	1960-10-21	\N
 5456	Melvil Poupaud	1973-01-26	\N
@@ -10572,7 +10542,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5461	Mennan Yapo	\N	\N
 5462	Menno Meyjes	\N	\N
 5463	Merab Ninidze	1965-11-03	\N
-5464	Mercedes Mor李펝	1955-09-21	\N
+5464	Mercedes Mor찼n	1955-09-21	\N
 5465	Meredith Hagner	1987-05-31	\N
 5466	Meredith Scott Lynn	1970-03-08	\N
 5467	Merritt Wever	1980-08-11	\N
@@ -10585,7 +10555,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5474	Mia Barron	\N	\N
 5475	Mia Farrow	1945-02-09	\N
 5476	Mia Kirshner	1975-01-25	\N
-5477	M梨쟞 Maestro	1968-03-31	\N
+5477	M챠a Maestro	1968-03-31	\N
 5478	Mia Sara	1967-06-19	\N
 5479	Mia Wasikowska	1989-10-14	\N
 5480	Mic Rodgers	\N	\N
@@ -10694,7 +10664,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5583	Michael O'Neill	\N	\N
 5584	Michael Palin	1943-05-05	\N
 5585	Michael Papajohn	1964-11-07	\N
-5586	Michael Par梨�	\N	\N
+5586	Michael Par챕	\N	\N
 5587	Michael Parks	1940-04-24	\N
 5588	Michael Parle	1958-10-09	\N
 5589	Michael Patrick Jann	1970-05-15	\N
@@ -10737,7 +10707,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5626	Michaela McManus	1983-05-20	\N
 5627	Michaela Watkins	\N	\N
 5628	Michel Bouquet	1925-11-06	\N
-5629	Michel C泥셳梨�	\N	\N
+5629	Michel C척t챕	\N	\N
 5630	Michel Galabru	1922-10-27	2016-01-04
 5631	Michel Gondry	1963-05-08	\N
 5632	Michel Hazanavicius	1967-03-29	\N
@@ -10761,8 +10731,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5650	Mick Lally	1945-11-10	2010-08-31
 5651	Mickey Hart	1943-09-11	\N
 5652	Mickey Liddell	\N	\N
-5653	Miguel A. N泥ъ굅ez Jr.	\N	\N
-5654	Miguel �쉧ngel Sol李�	1950-05-14	\N
+5653	Miguel A. N첬챰ez Jr.	\N	\N
+5654	Miguel 횁ngel Sol찼	1950-05-14	\N
 5655	Miguel Arteta	\N	\N
 5656	Miguel Ferrer	1955-02-07	2017-01-19
 5657	Miguel Sandoval	1951-11-16	\N
@@ -10770,7 +10740,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5659	Mihalis Giannatos	\N	2013-09-17
 5660	Mika Boorem	1987-08-18	\N
 5661	Mikaal Bates	\N	\N
-5662	Mikael H梨꿧str泥쟭	1960-07-01	\N
+5662	Mikael H책fstr철m	1960-07-01	\N
 5663	Mikael Salomon	1945-02-24	\N
 5664	Mikal Vega	\N	\N
 5665	Mike 'The Miz' Mizanin	1980-10-08	\N
@@ -10944,7 +10914,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5833	Natalie Welch	\N	\N
 5834	Nataliya Vdovina	1969-01-12	\N
 5835	Natalya Bondarchuk	1950-05-10	\N
-5836	Nataniel S李펝chez	\N	\N
+5836	Nataniel S찼nchez	\N	\N
 5837	Natascha McElhone	1969-12-14	\N
 5838	Natasha Bedingfield	1981-11-26	\N
 5839	Natasha Calis	\N	\N
@@ -11045,7 +11015,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5934	Nicki Aycox	1975-05-26	\N
 5935	Nickolas Perry	\N	\N
 5936	Nicky Katt	1970-05-11	\N
-5937	Nicky Naud梨�	\N	\N
+5937	Nicky Naud챕	\N	\N
 5938	Nicol Williamson	1936-09-14	2011-12-16
 5939	Nicola Walker	1970-05-15	\N
 5940	Nicolae Constantin Tanase	\N	\N
@@ -11057,7 +11027,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5946	Nicole de Boer	1970-12-20	\N
 5947	Nicole Dionne	1979-05-26	\N
 5948	Nicole Holofcener	1960-03-22	\N
-5949	Nicole Mu梨컊z	1994-06-24	\N
+5949	Nicole Mu챰oz	1994-06-24	\N
 5950	Nicole Randall Johnson	1973-12-09	\N
 5951	Nicole Scherzinger	1978-06-29	\N
 5952	Nicole Smolen	1996-12-09	\N
@@ -11073,16 +11043,16 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5962	Nikki Griffin	1978-04-16	\N
 5963	Nikola Djuricko	1974-07-09	\N
 5964	Nils Gaup	\N	\N
-5965	Nils-Anders Vallg梨꿹da	\N	\N
+5965	Nils-Anders Vallg책rda	\N	\N
 5966	Nima Nourizadeh	1977-11-12	\N
 5967	Nimrat Kaur	\N	\N
-5968	Nimr泥쁡 Antal	1973-11-30	\N
+5968	Nimr처d Antal	1973-11-30	\N
 5969	Nina Arianda	1984-09-18	\N
 5970	Nina Hartley	1959-03-11	\N
 5971	Nina Hoss	1975-07-07	\N
 5972	Nirut Sirichanya	\N	\N
 5973	Nissim Renard	\N	\N
-5974	Nnegest Likk梨�	1970-02-19	\N
+5974	Nnegest Likk챕	1970-02-19	\N
 5975	Noah Baumbach	1969-09-03	\N
 5976	Noah Bean	1978-08-20	\N
 5977	Noah Buschel	1978-05-31	\N
@@ -11100,14 +11070,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 5989	Noel Fisher	1984-03-13	\N
 5990	Noel Gugliemi	\N	\N
 5991	Noel Marshall	1931-04-18	2010-06-27
-5992	No梨븁ie Lenoir	1979-09-19	\N
+5992	No챕mie Lenoir	1979-09-19	\N
 5993	Nolan Gerard Funk	1986-07-28	\N
 5994	Nona Gaye	1974-09-04	\N
 5995	Nonso Anozie	1979-05-28	\N
 5996	Nora Arnezeder	1989-05-08	\N
 5997	Nora Dunn	1952-04-29	\N
 5998	Nora Ephron	1941-05-19	2012-06-26
-5999	Nora von Waldst梨꼝ten	1981-12-01	\N
+5999	Nora von Waldst채tten	1981-12-01	\N
 6000	Nora Zehetner	1981-02-05	\N
 6001	Norah Jones	1979-03-30	\N
 6002	Norbert Ferrer	\N	\N
@@ -11122,14 +11092,14 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6011	Oaklee Pendergast	\N	\N
 6012	Oana Pellea	1962-01-29	\N
 6013	Oanh Nguyen	\N	\N
-6014	Obba Babatund梨�	1951-12-01	\N
+6014	Obba Babatund챕	1951-12-01	\N
 6015	Ocean James	\N	\N
 6016	Odessa Rae	\N	\N
 6017	Odeya Rush	1997-05-12	\N
 6018	Ohad Knoller	1976-09-28	\N
 6019	Oksana Akinshina	1987-04-19	\N
 6020	Ol Parker	\N	\N
-6021	�슇lafur Darri �슇lafsson	1973-03-13	\N
+6021	횙lafur Darri 횙lafsson	1973-03-13	\N
 6022	Olatunde Osunsanmi	1977-10-23	\N
 6023	Ole Bornedal	1959-05-26	\N
 6024	Ole Christian Madsen	1966-06-18	\N
@@ -11186,7 +11156,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6075	Osama bin Laden	1957-03-10	2011-05-02
 6076	Oscar Gale	\N	\N
 6077	Oscar Isaac	1979-03-09	\N
-6078	�슇scar Jaenada	1975-05-04	\N
+6078	횙scar Jaenada	1975-05-04	\N
 6079	Osric Chau	1986-07-20	\N
 6080	Ossie Davis	1917-12-18	2005-02-04
 6081	Othon Bastos	1933-05-23	\N
@@ -11208,7 +11178,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6097	Pamela Reed	1949-04-02	\N
 6098	Pamela Salem	1950-01-22	\N
 6099	Pan Nalin	\N	\N
-6100	Panchito G泥쁬ez	1963-11-02	\N
+6100	Panchito G처mez	1963-11-02	\N
 6101	Panos Cosmatos	\N	\N
 6102	Pant Shirt Baba	\N	\N
 6103	Paolo Monico	1969-08-15	\N
@@ -11348,7 +11318,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6237	Paul Williams	1940-09-19	\N
 6238	Paul Winfield	1939-05-22	2004-03-07
 6239	Paula Abdul	1962-06-19	\N
-6240	Paula Garc梨븉	1974-03-20	\N
+6240	Paula Garc챕s	1974-03-20	\N
 6241	Paula Jai Parker	1969-08-19	\N
 6242	Paula Kelly	\N	\N
 6243	Paula Marshall	1964-06-12	\N
@@ -11362,11 +11332,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6251	Paz de la Huerta	1984-09-03	\N
 6252	Paz Vega	1976-01-02	\N
 6253	Pece Dingo	\N	\N
-6254	Pedro Almod泥쁵ar	1949-09-25	\N
-6255	Pedro Armend李펢iz Jr.	1940-04-06	2011-12-26
+6254	Pedro Almod처var	1949-09-25	\N
+6255	Pedro Armend찼riz Jr.	1940-04-06	2011-12-26
 6256	Pedro Miguel Arce	\N	\N
 6257	Pei-Pei Cheng	1946-12-04	\N
-6258	Pel梨�	\N	\N
+6258	Pel챕	\N	\N
 6259	Penelope Ann Miller	1964-01-13	\N
 6260	Penelope Spheeris	1945-12-02	\N
 6261	Penelope Wilton	1946-06-03	\N
@@ -11405,7 +11375,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6294	Peter DeLuise	1966-11-06	\N
 6295	Peter Dinklage	1969-06-11	\N
 6296	Peter Faiman	\N	\N
-6297	P梨븊er Fancsikai	\N	\N
+6297	P챕ter Fancsikai	\N	\N
 6298	Peter Farrelly	1956-12-17	\N
 6299	Peter Feeney	\N	\N
 6300	Peter Finch	1916-09-28	1977-01-14
@@ -11465,7 +11435,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6354	Peter Wingfield	1962-09-05	\N
 6355	Peter Yates	1929-07-24	2011-01-09
 6356	Peter Youngblood Hills	1978-01-28	\N
-6357	Petter N梨늮s	1960-03-14	\N
+6357	Petter N챈ss	1960-03-14	\N
 6358	Peyman Moaadi	\N	\N
 6359	Peyton Reed	1964-07-03	\N
 6360	Pfeifer Brown	\N	\N
@@ -11508,7 +11478,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6397	Phyllis Diller	1917-07-17	2012-08-20
 6398	Phyllis Smith	1951-07-10	\N
 6399	Pierfrancesco Favino	1969-08-24	\N
-6400	Piero Maggi梨�	1964-06-05	\N
+6400	Piero Maggi챵	1964-06-05	\N
 6401	Pierre Coffin	\N	\N
 6402	Pierre Dulat	1959-08-22	\N
 6403	Pierre Morel	1964-05-12	\N
@@ -11548,7 +11518,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6437	Quentin Tarantino	1963-03-27	\N
 6438	Quincy Jones	1933-03-14	\N
 6439	Quinton Aaron	1984-08-15	\N
-6440	Quvenzhan梨� Wallis	2003-08-28	\N
+6440	Quvenzhan챕 Wallis	2003-08-28	\N
 6441	Quynn Ton	\N	\N
 6442	R. Balki	\N	\N
 6443	R. Brandon Johnson	\N	\N
@@ -11633,7 +11603,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6522	Rasheed Naz	1948-09-09	\N
 6523	Raul Julia	1940-03-09	1994-10-24
 6524	Raven Goodwin	1992-06-24	\N
-6525	Raven-Symon梨�	1985-12-10	\N
+6525	Raven-Symon챕	1985-12-10	\N
 6526	Rawiri Paratene	\N	\N
 6527	Rawson Marshall Thurber	1975-02-09	\N
 6528	Ray Charles	1930-09-23	2004-06-10
@@ -11672,7 +11642,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6561	Regardt van den Bergh	\N	\N
 6562	Reggie Lee	\N	\N
 6563	Regi Davis	\N	\N
-6564	Regina Cas梨�	\N	\N
+6564	Regina Cas챕	\N	\N
 6565	Regina Hall	1970-12-12	\N
 6566	Reginald Ballard	\N	\N
 6567	Reginald Hudlin	1961-12-15	\N
@@ -11685,10 +11655,10 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6574	Rekha Sharma	\N	\N
 6575	Remo	1943-07-27	\N
 6576	Rene Auberjonois	1940-06-01	\N
-6577	Ren梨� F梨븈et	\N	\N
+6577	Ren챕 F챕ret	\N	\N
 6578	Rene Rosado	\N	\N
 6579	Rene Russo	1954-02-17	\N
-6580	Ren梨뷷 Ador梨뷷	\N	\N
+6580	Ren챕e Ador챕e	\N	\N
 6581	Renee Faia	\N	\N
 6582	Renee Leblanc	\N	\N
 6583	Renee Olstead	1989-06-18	\N
@@ -11707,7 +11677,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6596	Rian Johnson	1973-12-17	\N
 6597	Ric Roman Waugh	1968-02-20	\N
 6598	Ricardo Chavira	1971-09-01	\N
-6599	Ricardo Dar梨쟮	\N	\N
+6599	Ricardo Dar챠n	\N	\N
 6600	Ricardo Montalban	1920-11-25	2009-01-14
 6601	Riccardo Scamarcio	1979-11-13	\N
 6602	Rich Ceraulo	1977-03-27	\N
@@ -11955,9 +11925,9 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6844	Rodman Flender	1962-06-09	\N
 6845	Rodney Dangerfield	1921-11-22	2004-10-05
 6846	Rodney Eastman	1967-07-20	\N
-6847	Rodrigo Cort梨븉	\N	\N
+6847	Rodrigo Cort챕s	\N	\N
 6848	Rodrigo De la Serna	1976-04-18	\N
-6849	Rodrigo Garc梨쟞	1959-08-24	\N
+6849	Rodrigo Garc챠a	1959-08-24	\N
 6850	Roger Allam	1953-10-26	\N
 6851	Roger Allers	\N	\N
 6852	Roger Ashton-Griffiths	1957-01-19	\N
@@ -11980,7 +11950,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6869	Rohit Jagessar	\N	\N
 6870	Rohit Jugraj	\N	\N
 6871	Roland Emmerich	1955-11-10	\N
-6872	Roland Joff梨�	1945-11-17	\N
+6872	Roland Joff챕	1945-11-17	\N
 6873	Roland Suso Richter	1961-01-07	\N
 6874	Rolando Molina	1971-08-13	\N
 6875	Rollo Weeks	1987-03-20	\N
@@ -12004,7 +11974,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6893	Ron Moody	1924-01-08	2015-06-11
 6894	Ron Palillo	1949-04-02	2012-08-14
 6895	Ron Rifkin	1939-10-31	\N
-6896	Ron Rogg梨�	1968-10-16	\N
+6896	Ron Rogg챕	1968-10-16	\N
 6897	Ron Shelton	\N	\N
 6898	Ron Silver	1946-07-02	2009-03-15
 6899	Ron Underwood	1953-11-06	\N
@@ -12057,7 +12027,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6946	Ruby Harris	\N	\N
 6947	Ruby Jerins	1998-04-10	\N
 6948	Ruby Lin	1976-01-27	\N
-6949	R泥큕iger Vogler	1942-05-14	\N
+6949	R체diger Vogler	1942-05-14	\N
 6950	Rudolf Klein-Rogge	1885-11-24	1955-04-30
 6951	Rudy Youngblood	1982-09-21	\N
 6952	Rufus Graham	\N	\N
@@ -12107,10 +12077,10 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 6996	Ryan Reynolds	1976-10-23	\N
 6997	Ryan Robbins	1972-11-26	\N
 6998	Ryan Smith	\N	\N
-6999	Ry泥셦o Hirosue	1980-07-18	\N
+6999	Ry척ko Hirosue	1980-07-18	\N
 7000	Ryu Kohata	\N	\N
-7001	Ry泥춉ei Kitamura	1969-05-30	\N
-7002	Ry泥춏osuke Kamiki	1993-05-19	\N
+7001	Ry청hei Kitamura	1969-05-30	\N
+7002	Ry청nosuke Kamiki	1993-05-19	\N
 7003	RZA	1969-07-05	\N
 7004	S. Epatha Merkerson	1952-11-28	\N
 7005	S. William Hinzman	1936-10-24	2012-02-05
@@ -12127,7 +12097,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7016	Saffron Burrows	1972-10-22	\N
 7017	Sahajak Boonthanakit	\N	\N
 7018	Sai Varadan	\N	\N
-7019	Sa梨쫉 Taghmaoui	1973-07-19	\N
+7019	Sa챦d Taghmaoui	1973-07-19	\N
 7020	Saif Ali Khan	1970-08-16	\N
 7021	Sajid Khan	1970-08-16	\N
 7022	Sakae Kimura	1955-09-06	\N
@@ -12192,7 +12162,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7081	Sanaa Hamri	\N	\N
 7082	Sanaa Lathan	1971-09-19	\N
 7083	Sandahl Bergman	1951-11-14	\N
-7084	Sandra Echeverr梨쟞	1984-12-11	\N
+7084	Sandra Echeverr챠a	1984-12-11	\N
 7085	Sandra Ellis Lafferty	1940-08-02	\N
 7086	Sandra Nelson	1964-12-29	\N
 7087	Sandra Staggs	\N	\N
@@ -12317,7 +12287,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7206	Sebastian Aguilar	\N	\N
 7207	Sebastian Blomberg	1972-05-24	\N
 7208	Sebastian Koch	1962-05-31	\N
-7209	Sebastian Roch梨�	\N	\N
+7209	Sebastian Roch챕	\N	\N
 7210	Sebastian Schipper	1968-05-08	\N
 7211	Sedona James	\N	\N
 7212	Sedona Legge	\N	\N
@@ -12334,8 +12304,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7223	Sergey Bodrov	1948-06-28	\N
 7224	Sergey Bondarchuk	1920-09-25	1994-10-20
 7225	Sergey Garmash	1958-09-01	\N
-7226	Sergi L泥쁯ez	1965-12-22	\N
-7227	Sergio Calder泥쁭	1921-12-09	2008-01-26
+7226	Sergi L처pez	1965-12-22	\N
+7227	Sergio Calder처n	1921-12-09	2008-01-26
 7228	Sergio Leone	1929-01-03	1989-04-30
 7229	Sessue Hayakawa	1889-06-10	1973-11-23
 7230	Seth Ackerman	\N	\N
@@ -12422,7 +12392,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7311	Sherri Shepherd	1967-04-22	\N
 7312	Sheryl Crow	1962-02-11	\N
 7313	Sheryl Lee	1956-12-30	\N
-7314	Shid泥� Nakamura	1972-09-14	\N
+7314	Shid척 Nakamura	1972-09-14	\N
 7315	Shigeo Kobayashi	\N	\N
 7316	Shimit Amin	\N	\N
 7317	Shin'ya Tsukamoto	1960-01-01	\N
@@ -12435,7 +12405,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7324	Shirley Henderson	1965-11-24	\N
 7325	Shirley Jones	1934-03-31	\N
 7326	Shirley Knight	1936-07-05	\N
-7327	Sh泥� Kosugi	1976-05-25	\N
+7327	Sh척 Kosugi	1976-05-25	\N
 7328	Shobu Kapoor	\N	\N
 7329	Shona Auerbach	\N	\N
 7330	Shona Kay	\N	\N
@@ -12453,13 +12423,13 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7342	Sidney Lumet	1924-06-25	2011-04-09
 7343	Sienna Beckman	\N	\N
 7344	Sierra McCormick	1997-10-28	\N
-7345	Sigr梨좎괩ur Mar梨쟞 Egilsd泥쁳tir	\N	\N
+7345	Sigr챠챨ur Mar챠a Egilsd처ttir	\N	\N
 7346	Sihung Lung	1930-01-01	2002-05-02
 7347	Silvia Colloca	1977-07-23	\N
 7348	Silvio Muccino	1982-04-14	\N
 7349	Simeon Rice	1974-02-24	\N
 7350	Simon Abkarian	1962-03-05	\N
-7351	Sim泥쁭 Andreu	1941-01-01	\N
+7351	Sim처n Andreu	1941-01-01	\N
 7352	Simon Baker	1969-07-30	\N
 7353	Simon Baron-Cohen	\N	\N
 7354	Simon Callow	1949-06-13	\N
@@ -12492,7 +12462,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7381	Sofia Boutella	1982-04-06	\N
 7382	Sofia Coppola	1971-05-14	\N
 7383	Sofia Vassilieva	1992-10-22	\N
-7384	Sofie Gr梨꿣泥쯮	1968-07-30	\N
+7384	Sofie Gr책b첩l	1968-07-30	\N
 7385	Sol Tryon	\N	\N
 7386	Soledad Villamil	1969-06-19	\N
 7387	Soleyman Pierini	\N	\N
@@ -12502,7 +12472,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7391	Sonoya Mizuno	\N	\N
 7392	Sook-Yin Lee	\N	\N
 7393	Sophia Myles	1980-03-18	\N
-7394	Sophie N梨뷿isse	2000-03-27	\N
+7394	Sophie N챕lisse	2000-03-27	\N
 7395	Sophie Okonedo	1968-08-11	\N
 7396	Sophie Rois	1961-06-01	\N
 7397	Spela Colja	\N	\N
@@ -12538,11 +12508,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7427	Stefanie Drummond	\N	\N
 7428	Stefen Fangmeier	1960-12-09	\N
 7429	Steffinnie Phrommany	1978-10-02	\N
-7430	Stellan Skarsg梨꿹d	1951-06-13	\N
+7430	Stellan Skarsg책rd	1951-06-13	\N
 7431	Stephan Elliott	1964-08-27	\N
-7432	St梨븆hane Aubier	1964-10-08	\N
+7432	St챕phane Aubier	1964-10-08	\N
 7433	Stephane Gauger	\N	\N
-7434	St梨븆hane Rousseau	1966-09-17	\N
+7434	St챕phane Rousseau	1966-09-17	\N
 7435	Stephanie Berry	\N	\N
 7436	Stephanie Danielson	1987-04-11	\N
 7437	Stephanie Lemelin	1979-06-29	\N
@@ -12717,7 +12687,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7606	Sylvia Eckhausen	1889-07-20	1967-09-03
 7607	Sylvia Syms	1934-01-06	\N
 7608	Sylvio Tabet	\N	\N
-7609	Synn泥쯸e Macody Lund	\N	\N
+7609	Synn첩ve Macody Lund	\N	\N
 7610	T.C. Stallings	1977-12-01	\N
 7611	T.I.	1980-09-25	\N
 7612	T.J. Storm	\N	\N
@@ -12788,7 +12758,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7677	Taylor Negron	1957-08-01	2015-01-10
 7678	Taylor Nichols	1959-03-03	\N
 7679	Taylor Pigeon	\N	\N
-7680	Tch梨뷾y Karyo	1953-10-04	\N
+7680	Tch챕ky Karyo	1953-10-04	\N
 7681	Teala Dunn	1996-12-08	\N
 7682	Ted Cassidy	1932-07-31	1979-01-16
 7683	Ted Danson	1947-12-29	\N
@@ -12836,7 +12806,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7725	Terumi Matthews	1965-07-06	\N
 7726	Teryl Rothery	1962-11-09	\N
 7727	Tessa Thompson	1983-10-03	\N
-7728	Tessh泥� Genda	1948-05-20	\N
+7728	Tessh척 Genda	1948-05-20	\N
 7729	Tetsu Watanabe	\N	\N
 7730	Texas Battle	1976-08-09	\N
 7731	Teyonah Parris	\N	\N
@@ -12875,7 +12845,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7764	Thomas Stroppel	\N	\N
 7765	Thomas Vinterberg	1969-05-19	\N
 7766	Thor Freudenthal	1972-10-20	\N
-7767	Thorbj泥쯴n Christoffersen	\N	\N
+7767	Thorbj첩rn Christoffersen	\N	\N
 7768	Thure Lindhardt	1974-12-24	\N
 7769	Ti West	1980-10-05	\N
 7770	Tia Carrere	1967-01-02	\N
@@ -12920,8 +12890,8 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7809	Tim Story	1970-03-13	\N
 7810	Tim Thomerson	1946-04-08	\N
 7811	Tim Williams	1966-02-14	\N
-7812	Timoth梨뷷 Chalamet	\N	\N
-7813	Timothy Bj泥쟲klund	\N	\N
+7812	Timoth챕e Chalamet	\N	\N
+7813	Timothy Bj철rklund	\N	\N
 7814	Timothy Bottoms	1951-08-30	\N
 7815	Timothy Hines	\N	\N
 7816	Timothy Hutton	1960-08-16	\N
@@ -13025,7 +12995,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 7914	Tom Welling	1977-04-26	\N
 7915	Tom Wilkinson	1948-02-05	\N
 7916	Tomas Alfredson	1965-04-01	\N
-7917	T泥쁬as Lemarquis	1977-08-03	\N
+7917	T처mas Lemarquis	1977-08-03	\N
 7918	Tomiwa Edun	\N	\N
 7919	Tomm Moore	1977-01-07	\N
 7920	Tommy Knight	1993-01-22	\N
@@ -13143,7 +13113,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8032	Udayan Prasad	\N	\N
 8033	Udo Kier	1944-10-14	\N
 8034	Uli Edel	1947-04-11	\N
-8035	Ulrich M泥큚e	\N	\N
+8035	Ulrich M체he	\N	\N
 8036	Ulrich Thomsen	1963-12-06	\N
 8037	Ulrich Tukur	1957-07-29	\N
 8038	Ulu Grosbard	1929-01-09	2012-03-19
@@ -13160,7 +13130,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8049	Valeri Milev	\N	\N
 8050	Valeria Golino	1965-10-22	\N
 8051	Valerie Cruz	1976-07-18	\N
-8052	Val梨븈ie Lemercier	1964-03-09	\N
+8052	Val챕rie Lemercier	1964-03-09	\N
 8053	Valerie Perri	\N	\N
 8054	Valerie Tian	1989-04-21	\N
 8055	Vanesa Tomasino	1981-10-13	\N
@@ -13439,11 +13409,11 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8328	Yousef 'Joe' Sweid	1976-06-22	\N
 8329	Youssef Delara	\N	\N
 8330	Youssef Hajdi	1979-06-08	\N
-8331	Y泥� Aoi	1992-03-27	\N
+8331	Y청 Aoi	1992-03-27	\N
 8332	Yu-mi Jeong	1984-02-23	\N
 8333	Yuanyuan Gao	1979-10-05	\N
 8334	Yuefeng Song	\N	\N
-8335	Y泥춌i Amami	1967-08-08	\N
+8335	Y청ki Amami	1967-08-08	\N
 8336	Yuki Matsuzaki	1981-09-24	\N
 8337	Yul Vazquez	\N	\N
 8338	Yuliya Snigir	1983-06-02	\N
@@ -13451,7 +13421,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8340	Yuri Lowenthal	1971-03-05	\N
 8341	Yuria Nara	1999-12-21	\N
 8342	Yuriy Tsurilo	1946-12-10	\N
-8343	Y泥춖uke Iseya	1976-05-29	\N
+8343	Y청suke Iseya	1976-05-29	\N
 8344	Yuval Diskin	\N	\N
 8345	Yves Jacques	1910-06-11	1997-06-25
 8346	Yvette Mimieux	1942-01-08	\N
@@ -13476,7 +13446,7 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8365	Zackary Steven Graham	1986-04-27	\N
 8366	Zahava Solomon	\N	\N
 8367	Zahn McClarnon	1966-10-24	\N
-8368	Zaide Silvia Guti梨븈rez	1959-11-02	\N
+8368	Zaide Silvia Guti챕rrez	1959-11-02	\N
 8369	Zak Orth	1970-10-15	\N
 8370	Zak Penn	1968-09-01	\N
 8371	Zakes Mokae	1934-08-05	2009-09-11
@@ -13493,12 +13463,12 @@ COPY people (id, name, birthdate, deathdate) FROM stdin;
 8382	Zhengyong Zhang	\N	\N
 8383	Zhonghua Chen	\N	\N
 8384	Zinedine Soualem	1957-04-17	\N
-8385	Zo梨� Bell	1978-11-17	\N
+8385	Zo챘 Bell	1978-11-17	\N
 8386	Zoe Kazan	1983-09-09	\N
-8387	Zo梨� Kravitz	1988-12-01	\N
+8387	Zo챘 Kravitz	1988-12-01	\N
 8388	Zoe Levin	\N	\N
 8389	Zoe Lister-Jones	1982-09-01	\N
-8390	Zo梨� Poledouris	1973-08-25	\N
+8390	Zo챘 Poledouris	1973-08-25	\N
 8391	Zoe Ventoura	\N	\N
 8392	Zoey Deutch	1994-11-10	\N
 8393	Zohra Segal	1912-04-27	2014-07-10
@@ -38318,526 +38288,4 @@ ALTER TABLE ONLY roles
 
 --
 -- PostgreSQL database dump complete
---]]></console>
-    </connection>
-  </component>
-  <component name="DBNavigator.Project.DatabaseFileManager">
-    <open-files />
-  </component>
-  <component name="DBNavigator.Project.DatabaseSessionManager">
-    <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18" />
-  </component>
-  <component name="DBNavigator.Project.DatasetFilterManager">
-    <filter-actions connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" dataset="temp.orders" active-filter-id="" />
-  </component>
-  <component name="DBNavigator.Project.EditorStateManager">
-    <last-used-providers />
-  </component>
-  <component name="DBNavigator.Project.ExecutionManager">
-    <retain-sticky-names value="false" />
-  </component>
-  <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/step01_basic/films.sql" connection-id="virtual-postgres-connection" session-id="MAIN" current-schema="" />
-  </component>
-  <component name="DBNavigator.Project.MethodExecutionManager">
-    <method-browser />
-    <execution-history>
-      <group-entries value="true" />
-      <execution-inputs />
-    </execution-history>
-    <argument-values-cache />
-  </component>
-  <component name="DBNavigator.Project.ObjectDependencyManager">
-    <last-used-dependency-type value="INCOMING" />
-  </component>
-  <component name="DBNavigator.Project.ObjectQuickFilterManager">
-    <last-used-operator value="EQUAL" />
-    <filters />
-  </component>
-  <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
-    <recently-used-interfaces />
-  </component>
-  <component name="DBNavigator.Project.Settings">
-    <connections>
-      <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18" active="true">
-        <database>
-          <name value="Connection" />
-          <description value="" />
-          <database-type value="POSTGRES" />
-          <config-type value="BASIC" />
-          <database-version value="13.3" />
-          <driver-source value="BUILTIN" />
-          <driver-library value="" />
-          <driver value="" />
-          <url-type value="DATABASE" />
-          <host value="localhost" />
-          <port value="5432" />
-          <database value="postgres" />
-          <type value="NONE" />
-          <user value="" />
-          <deprecated-pwd value="" />
-        </database>
-        <properties>
-          <auto-commit value="false" />
-        </properties>
-        <ssh-settings>
-          <active value="false" />
-          <proxy-host value="" />
-          <proxy-port value="22" />
-          <proxy-user value="" />
-          <deprecated-proxy-pwd value="" />
-          <auth-type value="PASSWORD" />
-          <key-file value="" />
-          <key-passphrase value="" />
-        </ssh-settings>
-        <ssl-settings>
-          <active value="false" />
-          <certificate-authority-file value="" />
-          <client-certificate-file value="" />
-          <client-key-file value="" />
-        </ssl-settings>
-        <details>
-          <charset value="UTF-8" />
-          <session-management value="true" />
-          <ddl-file-binding value="true" />
-          <database-logging value="false" />
-          <connect-automatically value="true" />
-          <restore-workspace value="true" />
-          <restore-workspace-deep value="true" />
-          <environment-type value="default" />
-          <connectivity-timeout value="5" />
-          <idle-time-to-disconnect value="30" />
-          <idle-time-to-disconnect-pool value="5" />
-          <credential-expiry-time value="10" />
-          <max-connection-pool-size value="7" />
-          <alternative-statement-delimiter value="" />
-        </details>
-        <object-filters hide-empty-schemas="false" hide-pseudo-columns="false">
-          <object-type-filter use-master-settings="true">
-            <object-type name="SCHEMA" enabled="true" />
-            <object-type name="USER" enabled="true" />
-            <object-type name="ROLE" enabled="true" />
-            <object-type name="PRIVILEGE" enabled="true" />
-            <object-type name="CHARSET" enabled="true" />
-            <object-type name="TABLE" enabled="true" />
-            <object-type name="VIEW" enabled="true" />
-            <object-type name="MATERIALIZED_VIEW" enabled="true" />
-            <object-type name="NESTED_TABLE" enabled="true" />
-            <object-type name="COLUMN" enabled="true" />
-            <object-type name="INDEX" enabled="true" />
-            <object-type name="CONSTRAINT" enabled="true" />
-            <object-type name="DATASET_TRIGGER" enabled="true" />
-            <object-type name="DATABASE_TRIGGER" enabled="true" />
-            <object-type name="SYNONYM" enabled="true" />
-            <object-type name="SEQUENCE" enabled="true" />
-            <object-type name="PROCEDURE" enabled="true" />
-            <object-type name="FUNCTION" enabled="true" />
-            <object-type name="PACKAGE" enabled="true" />
-            <object-type name="TYPE" enabled="true" />
-            <object-type name="TYPE_ATTRIBUTE" enabled="true" />
-            <object-type name="ARGUMENT" enabled="true" />
-            <object-type name="DIMENSION" enabled="true" />
-            <object-type name="CLUSTER" enabled="true" />
-            <object-type name="DBLINK" enabled="true" />
-          </object-type-filter>
-          <object-name-filters />
-        </object-filters>
-      </connection>
-    </connections>
-    <browser-settings>
-      <general>
-        <display-mode value="TABBED" />
-        <navigation-history-size value="100" />
-        <show-object-details value="false" />
-      </general>
-      <filters>
-        <object-type-filter>
-          <object-type name="SCHEMA" enabled="true" />
-          <object-type name="USER" enabled="true" />
-          <object-type name="ROLE" enabled="true" />
-          <object-type name="PRIVILEGE" enabled="true" />
-          <object-type name="CHARSET" enabled="true" />
-          <object-type name="TABLE" enabled="true" />
-          <object-type name="VIEW" enabled="true" />
-          <object-type name="MATERIALIZED_VIEW" enabled="true" />
-          <object-type name="NESTED_TABLE" enabled="true" />
-          <object-type name="COLUMN" enabled="true" />
-          <object-type name="INDEX" enabled="true" />
-          <object-type name="CONSTRAINT" enabled="true" />
-          <object-type name="DATASET_TRIGGER" enabled="true" />
-          <object-type name="DATABASE_TRIGGER" enabled="true" />
-          <object-type name="SYNONYM" enabled="true" />
-          <object-type name="SEQUENCE" enabled="true" />
-          <object-type name="PROCEDURE" enabled="true" />
-          <object-type name="FUNCTION" enabled="true" />
-          <object-type name="PACKAGE" enabled="true" />
-          <object-type name="TYPE" enabled="true" />
-          <object-type name="TYPE_ATTRIBUTE" enabled="true" />
-          <object-type name="ARGUMENT" enabled="true" />
-          <object-type name="DIMENSION" enabled="true" />
-          <object-type name="CLUSTER" enabled="true" />
-          <object-type name="DBLINK" enabled="true" />
-        </object-type-filter>
-      </filters>
-      <sorting>
-        <object-type name="COLUMN" sorting-type="NAME" />
-        <object-type name="FUNCTION" sorting-type="NAME" />
-        <object-type name="PROCEDURE" sorting-type="NAME" />
-        <object-type name="ARGUMENT" sorting-type="POSITION" />
-      </sorting>
-      <default-editors>
-        <object-type name="VIEW" editor-type="SELECTION" />
-        <object-type name="PACKAGE" editor-type="SELECTION" />
-        <object-type name="TYPE" editor-type="SELECTION" />
-      </default-editors>
-    </browser-settings>
-    <navigation-settings>
-      <lookup-filters>
-        <lookup-objects>
-          <object-type name="SCHEMA" enabled="true" />
-          <object-type name="USER" enabled="false" />
-          <object-type name="ROLE" enabled="false" />
-          <object-type name="PRIVILEGE" enabled="false" />
-          <object-type name="CHARSET" enabled="false" />
-          <object-type name="TABLE" enabled="true" />
-          <object-type name="VIEW" enabled="true" />
-          <object-type name="MATERIALIZED VIEW" enabled="true" />
-          <object-type name="INDEX" enabled="true" />
-          <object-type name="CONSTRAINT" enabled="true" />
-          <object-type name="DATASET TRIGGER" enabled="true" />
-          <object-type name="DATABASE TRIGGER" enabled="true" />
-          <object-type name="SYNONYM" enabled="false" />
-          <object-type name="SEQUENCE" enabled="true" />
-          <object-type name="PROCEDURE" enabled="true" />
-          <object-type name="FUNCTION" enabled="true" />
-          <object-type name="PACKAGE" enabled="true" />
-          <object-type name="TYPE" enabled="true" />
-          <object-type name="DIMENSION" enabled="false" />
-          <object-type name="CLUSTER" enabled="false" />
-          <object-type name="DBLINK" enabled="true" />
-        </lookup-objects>
-        <force-database-load value="false" />
-        <prompt-connection-selection value="true" />
-        <prompt-schema-selection value="true" />
-      </lookup-filters>
-    </navigation-settings>
-    <dataset-grid-settings>
-      <general>
-        <enable-zooming value="true" />
-        <enable-column-tooltip value="true" />
-      </general>
-      <sorting>
-        <nulls-first value="true" />
-        <max-sorting-columns value="4" />
-      </sorting>
-      <tracking-columns>
-        <columnNames value="" />
-        <visible value="true" />
-        <editable value="false" />
-      </tracking-columns>
-    </dataset-grid-settings>
-    <dataset-editor-settings>
-      <text-editor-popup>
-        <active value="false" />
-        <active-if-empty value="false" />
-        <data-length-threshold value="100" />
-        <popup-delay value="1000" />
-      </text-editor-popup>
-      <values-actions-popup>
-        <show-popup-button value="true" />
-        <element-count-threshold value="1000" />
-        <data-length-threshold value="250" />
-      </values-actions-popup>
-      <general>
-        <fetch-block-size value="100" />
-        <fetch-timeout value="30" />
-        <trim-whitespaces value="true" />
-        <convert-empty-strings-to-null value="true" />
-        <select-content-on-cell-edit value="true" />
-        <large-value-preview-active value="true" />
-      </general>
-      <filters>
-        <prompt-filter-dialog value="true" />
-        <default-filter-type value="BASIC" />
-      </filters>
-      <qualified-text-editor text-length-threshold="300">
-        <content-types>
-          <content-type name="Text" enabled="true" />
-          <content-type name="Properties" enabled="true" />
-          <content-type name="XML" enabled="true" />
-          <content-type name="DTD" enabled="true" />
-          <content-type name="HTML" enabled="true" />
-          <content-type name="XHTML" enabled="true" />
-          <content-type name="SQL" enabled="true" />
-          <content-type name="PL/SQL" enabled="true" />
-          <content-type name="JSON" enabled="true" />
-          <content-type name="JSON5" enabled="true" />
-          <content-type name="YAML" enabled="true" />
-        </content-types>
-      </qualified-text-editor>
-      <record-navigation>
-        <navigation-target value="VIEWER" />
-      </record-navigation>
-    </dataset-editor-settings>
-    <code-editor-settings>
-      <general>
-        <show-object-navigation-gutter value="false" />
-        <show-spec-declaration-navigation-gutter value="true" />
-        <enable-spellchecking value="true" />
-        <enable-reference-spellchecking value="false" />
-      </general>
-      <confirmations>
-        <save-changes value="false" />
-        <revert-changes value="true" />
-      </confirmations>
-    </code-editor-settings>
-    <code-completion-settings>
-      <filters>
-        <basic-filter>
-          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
-          <filter-element type="RESERVED_WORD" id="function" selected="true" />
-          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
-          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
-          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
-          <filter-element type="OBJECT" id="schema" selected="true" />
-          <filter-element type="OBJECT" id="role" selected="true" />
-          <filter-element type="OBJECT" id="user" selected="true" />
-          <filter-element type="OBJECT" id="privilege" selected="true" />
-          <user-schema>
-            <filter-element type="OBJECT" id="table" selected="true" />
-            <filter-element type="OBJECT" id="view" selected="true" />
-            <filter-element type="OBJECT" id="materialized view" selected="true" />
-            <filter-element type="OBJECT" id="index" selected="true" />
-            <filter-element type="OBJECT" id="constraint" selected="true" />
-            <filter-element type="OBJECT" id="trigger" selected="true" />
-            <filter-element type="OBJECT" id="synonym" selected="false" />
-            <filter-element type="OBJECT" id="sequence" selected="true" />
-            <filter-element type="OBJECT" id="procedure" selected="true" />
-            <filter-element type="OBJECT" id="function" selected="true" />
-            <filter-element type="OBJECT" id="package" selected="true" />
-            <filter-element type="OBJECT" id="type" selected="true" />
-            <filter-element type="OBJECT" id="dimension" selected="true" />
-            <filter-element type="OBJECT" id="cluster" selected="true" />
-            <filter-element type="OBJECT" id="dblink" selected="true" />
-          </user-schema>
-          <public-schema>
-            <filter-element type="OBJECT" id="table" selected="false" />
-            <filter-element type="OBJECT" id="view" selected="false" />
-            <filter-element type="OBJECT" id="materialized view" selected="false" />
-            <filter-element type="OBJECT" id="index" selected="false" />
-            <filter-element type="OBJECT" id="constraint" selected="false" />
-            <filter-element type="OBJECT" id="trigger" selected="false" />
-            <filter-element type="OBJECT" id="synonym" selected="false" />
-            <filter-element type="OBJECT" id="sequence" selected="false" />
-            <filter-element type="OBJECT" id="procedure" selected="false" />
-            <filter-element type="OBJECT" id="function" selected="false" />
-            <filter-element type="OBJECT" id="package" selected="false" />
-            <filter-element type="OBJECT" id="type" selected="false" />
-            <filter-element type="OBJECT" id="dimension" selected="false" />
-            <filter-element type="OBJECT" id="cluster" selected="false" />
-            <filter-element type="OBJECT" id="dblink" selected="false" />
-          </public-schema>
-          <any-schema>
-            <filter-element type="OBJECT" id="table" selected="true" />
-            <filter-element type="OBJECT" id="view" selected="true" />
-            <filter-element type="OBJECT" id="materialized view" selected="true" />
-            <filter-element type="OBJECT" id="index" selected="true" />
-            <filter-element type="OBJECT" id="constraint" selected="true" />
-            <filter-element type="OBJECT" id="trigger" selected="true" />
-            <filter-element type="OBJECT" id="synonym" selected="true" />
-            <filter-element type="OBJECT" id="sequence" selected="true" />
-            <filter-element type="OBJECT" id="procedure" selected="true" />
-            <filter-element type="OBJECT" id="function" selected="true" />
-            <filter-element type="OBJECT" id="package" selected="true" />
-            <filter-element type="OBJECT" id="type" selected="true" />
-            <filter-element type="OBJECT" id="dimension" selected="true" />
-            <filter-element type="OBJECT" id="cluster" selected="true" />
-            <filter-element type="OBJECT" id="dblink" selected="true" />
-          </any-schema>
-        </basic-filter>
-        <extended-filter>
-          <filter-element type="RESERVED_WORD" id="keyword" selected="true" />
-          <filter-element type="RESERVED_WORD" id="function" selected="true" />
-          <filter-element type="RESERVED_WORD" id="parameter" selected="true" />
-          <filter-element type="RESERVED_WORD" id="datatype" selected="true" />
-          <filter-element type="RESERVED_WORD" id="exception" selected="true" />
-          <filter-element type="OBJECT" id="schema" selected="true" />
-          <filter-element type="OBJECT" id="user" selected="true" />
-          <filter-element type="OBJECT" id="role" selected="true" />
-          <filter-element type="OBJECT" id="privilege" selected="true" />
-          <user-schema>
-            <filter-element type="OBJECT" id="table" selected="true" />
-            <filter-element type="OBJECT" id="view" selected="true" />
-            <filter-element type="OBJECT" id="materialized view" selected="true" />
-            <filter-element type="OBJECT" id="index" selected="true" />
-            <filter-element type="OBJECT" id="constraint" selected="true" />
-            <filter-element type="OBJECT" id="trigger" selected="true" />
-            <filter-element type="OBJECT" id="synonym" selected="true" />
-            <filter-element type="OBJECT" id="sequence" selected="true" />
-            <filter-element type="OBJECT" id="procedure" selected="true" />
-            <filter-element type="OBJECT" id="function" selected="true" />
-            <filter-element type="OBJECT" id="package" selected="true" />
-            <filter-element type="OBJECT" id="type" selected="true" />
-            <filter-element type="OBJECT" id="dimension" selected="true" />
-            <filter-element type="OBJECT" id="cluster" selected="true" />
-            <filter-element type="OBJECT" id="dblink" selected="true" />
-          </user-schema>
-          <public-schema>
-            <filter-element type="OBJECT" id="table" selected="true" />
-            <filter-element type="OBJECT" id="view" selected="true" />
-            <filter-element type="OBJECT" id="materialized view" selected="true" />
-            <filter-element type="OBJECT" id="index" selected="true" />
-            <filter-element type="OBJECT" id="constraint" selected="true" />
-            <filter-element type="OBJECT" id="trigger" selected="true" />
-            <filter-element type="OBJECT" id="synonym" selected="true" />
-            <filter-element type="OBJECT" id="sequence" selected="true" />
-            <filter-element type="OBJECT" id="procedure" selected="true" />
-            <filter-element type="OBJECT" id="function" selected="true" />
-            <filter-element type="OBJECT" id="package" selected="true" />
-            <filter-element type="OBJECT" id="type" selected="true" />
-            <filter-element type="OBJECT" id="dimension" selected="true" />
-            <filter-element type="OBJECT" id="cluster" selected="true" />
-            <filter-element type="OBJECT" id="dblink" selected="true" />
-          </public-schema>
-          <any-schema>
-            <filter-element type="OBJECT" id="table" selected="true" />
-            <filter-element type="OBJECT" id="view" selected="true" />
-            <filter-element type="OBJECT" id="materialized view" selected="true" />
-            <filter-element type="OBJECT" id="index" selected="true" />
-            <filter-element type="OBJECT" id="constraint" selected="true" />
-            <filter-element type="OBJECT" id="trigger" selected="true" />
-            <filter-element type="OBJECT" id="synonym" selected="true" />
-            <filter-element type="OBJECT" id="sequence" selected="true" />
-            <filter-element type="OBJECT" id="procedure" selected="true" />
-            <filter-element type="OBJECT" id="function" selected="true" />
-            <filter-element type="OBJECT" id="package" selected="true" />
-            <filter-element type="OBJECT" id="type" selected="true" />
-            <filter-element type="OBJECT" id="dimension" selected="true" />
-            <filter-element type="OBJECT" id="cluster" selected="true" />
-            <filter-element type="OBJECT" id="dblink" selected="true" />
-          </any-schema>
-        </extended-filter>
-      </filters>
-      <sorting enabled="true">
-        <sorting-element type="RESERVED_WORD" id="keyword" />
-        <sorting-element type="RESERVED_WORD" id="datatype" />
-        <sorting-element type="OBJECT" id="column" />
-        <sorting-element type="OBJECT" id="table" />
-        <sorting-element type="OBJECT" id="view" />
-        <sorting-element type="OBJECT" id="materialized view" />
-        <sorting-element type="OBJECT" id="index" />
-        <sorting-element type="OBJECT" id="constraint" />
-        <sorting-element type="OBJECT" id="trigger" />
-        <sorting-element type="OBJECT" id="synonym" />
-        <sorting-element type="OBJECT" id="sequence" />
-        <sorting-element type="OBJECT" id="procedure" />
-        <sorting-element type="OBJECT" id="function" />
-        <sorting-element type="OBJECT" id="package" />
-        <sorting-element type="OBJECT" id="type" />
-        <sorting-element type="OBJECT" id="dimension" />
-        <sorting-element type="OBJECT" id="cluster" />
-        <sorting-element type="OBJECT" id="dblink" />
-        <sorting-element type="OBJECT" id="schema" />
-        <sorting-element type="OBJECT" id="role" />
-        <sorting-element type="OBJECT" id="user" />
-        <sorting-element type="RESERVED_WORD" id="function" />
-        <sorting-element type="RESERVED_WORD" id="parameter" />
-      </sorting>
-      <format>
-        <enforce-code-style-case value="true" />
-      </format>
-    </code-completion-settings>
-    <execution-engine-settings>
-      <statement-execution>
-        <fetch-block-size value="100" />
-        <execution-timeout value="20" />
-        <debug-execution-timeout value="600" />
-        <focus-result value="false" />
-        <prompt-execution value="false" />
-      </statement-execution>
-      <script-execution>
-        <command-line-interfaces />
-        <execution-timeout value="300" />
-      </script-execution>
-      <method-execution>
-        <execution-timeout value="30" />
-        <debug-execution-timeout value="600" />
-        <parameter-history-size value="10" />
-      </method-execution>
-    </execution-engine-settings>
-    <operation-settings>
-      <transactions>
-        <uncommitted-changes>
-          <on-project-close value="ASK" />
-          <on-disconnect value="ASK" />
-          <on-autocommit-toggle value="ASK" />
-        </uncommitted-changes>
-        <multiple-uncommitted-changes>
-          <on-commit value="ASK" />
-          <on-rollback value="ASK" />
-        </multiple-uncommitted-changes>
-      </transactions>
-      <session-browser>
-        <disconnect-session value="ASK" />
-        <kill-session value="ASK" />
-        <reload-on-filter-change value="false" />
-      </session-browser>
-      <compiler>
-        <compile-type value="KEEP" />
-        <compile-dependencies value="ASK" />
-        <always-show-controls value="false" />
-      </compiler>
-      <debugger>
-        <debugger-type value="JDBC" />
-        <use-generic-runners value="true" />
-      </debugger>
-    </operation-settings>
-    <ddl-file-settings>
-      <extensions>
-        <mapping file-type-id="VIEW" extensions="vw" />
-        <mapping file-type-id="TRIGGER" extensions="trg" />
-        <mapping file-type-id="PROCEDURE" extensions="prc" />
-        <mapping file-type-id="FUNCTION" extensions="fnc" />
-        <mapping file-type-id="PACKAGE" extensions="pkg" />
-        <mapping file-type-id="PACKAGE_SPEC" extensions="pks" />
-        <mapping file-type-id="PACKAGE_BODY" extensions="pkb" />
-        <mapping file-type-id="TYPE" extensions="tpe" />
-        <mapping file-type-id="TYPE_SPEC" extensions="tps" />
-        <mapping file-type-id="TYPE_BODY" extensions="tpb" />
-      </extensions>
-      <general>
-        <lookup-ddl-files value="true" />
-        <create-ddl-files value="false" />
-        <synchronize-ddl-files value="true" />
-        <use-qualified-names value="false" />
-        <make-scripts-rerunnable value="true" />
-      </general>
-    </ddl-file-settings>
-    <general-settings>
-      <regional-settings>
-        <date-format value="MEDIUM" />
-        <number-format value="UNGROUPED" />
-        <locale value="SYSTEM_DEFAULT" />
-        <use-custom-formats value="false" />
-      </regional-settings>
-      <environment>
-        <environment-types>
-          <environment-type id="development" name="Development" description="Development environment" color="-2430209/-12296320" readonly-code="false" readonly-data="false" />
-          <environment-type id="integration" name="Integration" description="Integration environment" color="-2621494/-12163514" readonly-code="true" readonly-data="false" />
-          <environment-type id="production" name="Production" description="Productive environment" color="-11574/-10271420" readonly-code="true" readonly-data="true" />
-          <environment-type id="other" name="Other" description="" color="-1576/-10724543" readonly-code="false" readonly-data="false" />
-        </environment-types>
-        <visibility-settings>
-          <connection-tabs value="true" />
-          <dialog-headers value="true" />
-          <object-editor-tabs value="true" />
-          <script-editor-tabs value="false" />
-          <execution-result-tabs value="true" />
-        </visibility-settings>
-      </environment>
-    </general-settings>
-  </component>
-  <component name="DBNavigator.Project.StatementExecutionManager">
-    <execution-variables />
-  </component>
-</project>
+--
