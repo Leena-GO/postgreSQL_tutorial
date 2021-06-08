@@ -10,8 +10,8 @@ TABLESPACE pg_default;
 ALTER TABLE public.developers
     OWNER to postgres;
 
-INSERT INTO developers VALUES(1, '2019-12-17', '"자바"')
-INSERT INTO developers VALUES(2, '2019-12-17', '''자바''')
+INSERT INTO developers VALUES(1, '2019-12-17', '"자바"');
+INSERT INTO developers VALUES(2, '2019-12-17', '''자바''');
 INSERT INTO developers VALUES(3, '2019-12-17', 'Python''s Programming');
 
 INSERT INTO developers (book_id, date, name) VALUES
