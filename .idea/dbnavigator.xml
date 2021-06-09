@@ -28,13 +28,13 @@
       <connection connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
         <schema name="information_schema" object-types="table, view" />
         <schema name="pg_catalog" object-types="table, view, function" />
-        <schema name="public" object-types="table, view, sequence, function, constraint, index, column, dataset trigger" />
+        <schema name="public" object-types="table, view" />
       </connection>
     </loaded-nodes>
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main">CREATE TABLE summer_medals (
+      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE summer_medals (
   year INTEGER,
   city VARCHAR(42),
   sport VARCHAR(34),
@@ -44,7 +44,7 @@
   gender VARCHAR(10),
   event VARCHAR(98),
   medal VARCHAR(12)
-);</console>
+);]]></console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
