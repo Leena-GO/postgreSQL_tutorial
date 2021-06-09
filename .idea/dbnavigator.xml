@@ -34,7 +34,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main"><![CDATA[CREATE TABLE summer_medals (
+      <console name="Connection" type="STANDARD" schema="public" session="Main">CREATE TABLE summer_medals (
   year INTEGER,
   city VARCHAR(42),
   sport VARCHAR(34),
@@ -44,7 +44,7 @@
   gender VARCHAR(10),
   event VARCHAR(98),
   medal VARCHAR(12)
-);]]></console>
+);</console>
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -84,9 +84,7 @@
     <filters />
   </component>
   <component name="DBNavigator.Project.ScriptExecutionManager" clear-outputs="true">
-    <recently-used-interfaces>
-      <mapping database-type="POSTGRES" interface-id="DEFAULT" />
-    </recently-used-interfaces>
+    <recently-used-interfaces />
   </component>
   <component name="DBNavigator.Project.Settings">
     <connections>
