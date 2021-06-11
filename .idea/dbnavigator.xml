@@ -17,7 +17,7 @@
       <scope value="GLOBAL" />
       <destination value="FILE" />
       <format value="EXCEL" />
-      <charset value="x-windows-949" />
+      <charset value="UTF-8" />
     </export-instructions>
   </component>
   <component name="DBNavigator.Project.DatabaseBrowserManager">
@@ -26,6 +26,7 @@
     <show-object-properties value="false" />
     <loaded-nodes>
       <connection connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
+        <schema name="ann_simmons" object-types="table, view" />
         <schema name="pg_catalog" object-types="table, view, function" />
         <schema name="public" object-types="table, view, function, column" />
       </connection>
@@ -33,7 +34,7 @@
   </component>
   <component name="DBNavigator.Project.DatabaseConsoleManager">
     <connection id="c9828f64-5be2-42cc-9ff0-6e0310790e18">
-      <console name="Connection" type="STANDARD" schema="public" session="Main">SELECT *</console>
+      <console name="Connection" type="STANDARD" schema="public" session="Main" />
     </connection>
   </component>
   <component name="DBNavigator.Project.DatabaseFileManager">
@@ -54,7 +55,7 @@
     <retain-sticky-names value="false" />
   </component>
   <component name="DBNavigator.Project.FileConnectionMappingManager">
-    <mapping file-url="file://$PROJECT_DIR$/step01_basic/developers.sql" connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" session-id="MAIN" current-schema="information_schema" />
+    <mapping file-url="file://$PROJECT_DIR$/step01_basic/developers.sql" connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" session-id="MAIN" current-schema="public" />
     <mapping file-url="file://$PROJECT_DIR$/step01_basic/summer_medals.sql" connection-id="c9828f64-5be2-42cc-9ff0-6e0310790e18" session-id="MAIN" current-schema="public" />
   </component>
   <component name="DBNavigator.Project.MethodExecutionManager">
