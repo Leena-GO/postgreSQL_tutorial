@@ -1,3 +1,5 @@
+DROP TABLE IF EXISTS developers;
+
 CREATE TABLE public.developers
 (
     book_id integer,

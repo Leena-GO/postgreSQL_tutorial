@@ -84,15 +84,15 @@ CREATE TABLE economies2015 (
 );
 
 -- Copy over data from CSVs
-\copy cities FROM 'data/cities.csv' DELIMITER ',' CSV HEADER;
-\copy countries FROM 'data/countries.csv' DELIMITER ',' CSV HEADER;
-\copy languages FROM 'data/languages.csv' DELIMITER ',' CSV HEADER;
-\copy economies FROM 'data/economies.csv' DELIMITER ',' CSV HEADER;
-\copy economies2010 FROM 'data/economies2010.csv' DELIMITER ',' CSV HEADER;
-\copy economies2015 FROM 'data/economies2015.csv' DELIMITER ',' CSV HEADER;
-\copy currencies FROM 'data/currencies.csv' DELIMITER ',' CSV HEADER;
-\copy populations FROM 'data/populations.csv' DELIMITER ',' CSV HEADER;
-\copy countries_plus FROM 'data/countries_plus.csv' DELIMITER ',' CSV HEADER;
+\copy cities FROM 'data/cities.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy countries FROM 'data/countries.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy languages FROM 'data/languages.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy economies FROM 'data/economies.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy economies2010 FROM 'data/economies2010.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy economies2015 FROM 'data/economies2015.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy currencies FROM 'data/currencies.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy populations FROM 'data/populations.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
+\copy countries_plus FROM 'data/countries_plus.csv' DELIMITER ',' CSV HEADER ENCODING 'UTF8';
 
 /*
 psql -U postgres
